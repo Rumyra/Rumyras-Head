@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <!--char set (lang above)-->
+  <meta charset="utf-8">
+
+  <!--device/browser shizzle-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--meta content-->
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+  <meta name="author" content="Ruth John (@rumyra)">
+  <meta name="dcterms.rightsHolder" content="Ruth John for Rumyra Ltd, United Kingdom, 2015">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <title>The Colour Black</title>
+
+  <!--Stylesheets (include as necessary)-->
+  <!--[if lte IE 9]>
+  <link rel="stylesheet" href="ie.css" type="text/css" media="screen"/>
+  <![endif]-->
+
+  <link href="/assets/stylesheets/application.css" rel="stylesheet" type="text/css" /><link href="/assets/stylesheets/all.css" rel="stylesheet" type="text/css" /><link href="/assets/stylesheets/pygments.css" rel="stylesheet" type="text/css" />
+  <script src="/assets/javascripts/all.js" type="text/javascript"></script>
+</head>
+
+  <body class="The-Colour-Black"><div>
+
+    <header role="main">
+      
+      <h1><a href="/" rel="internal" title="Link back to the home of Rumyra's Head">Rumyra's Head</a></h1>
+
+      <nav role="main">
+        <a href="/category/brain-dribble.html">Brain Dribble</a>
+        <a href="/category/craft-code.html">Craft &amp; Code</a>
+        <!--<a href="http://rumyrashead.com/category/challenge-rumyra/">Challenge Rumyra</a>-->
+        <a href="/category/speak-write-mentor.html">Speak, Write, Mentor</a>
+        <a href="mailto:sayhello@rumyrashead.com">Say Hello</a>
+      </nav>
+    </header>
+
+    <section role="main">
+      <aside role="banner">
+      <!-- <form role="search" method="get" action="http://rumyrashead.com/">
+        <fieldset><legend>Search Rumyra's Head</legend>
+          <div class="form-field">
+            <label for="s">Search term</label>
+            <input type="text" placeholder="Search term" name="s" id="s">
+          </div>
+          <input type="submit" value="Search">
+        </fieldset>
+      </form> -->
+
+      <nav role="complementary" class="nav-social">
+        <a href="http://www.twitter.com/rumyra" rel="external" class="icon-make i-twitter">Follow @rumyra on Twitter</a>
+        <a href="http://www.github.com/rumyra" rel="external" class="icon-make i-github">Rumyra on Github</a>
+        <a href="mailto:sayhello@rumyrashead.com" class="icon-make i-email">Say Hello</a>
+        <!--<a href="http://codepen.io/Rumyra" rel="external">Rumyra on Codepen</a>-->
+        <a href="/feed.xml" class="icon-make i-rss">Get the RSS feed</a>
+      </nav>
+    </aside>
+
+    <article class="post craft-code">
+  <header>
+     <h2>The Colour Black</h2>
+     <time datetime="2016-05-14">May 14, 2016</time>
+  </header>
+  <div class="post-content">
+    <p>When I was studying art in college, one of the first things we were taught when painting, was not to use the colour black, to mix it instead. Straight, pure black that comes out of a tube of paint is extremely strong and when used as shadows or dark places within paintings and alongside other colours actually zaps away these colours or soaks them all up. Leaving a very dull colourless painting devoid of the levels and tones you get from, well, colour. By mixing a very dark shade, usually from a combination of other colours you are using, (dark blues, greens &amp; reds combined make good faux blacks), you keep colours and avoid zapping the painting of tone.</p>
+
+<figure class="media-feature">
+  <img src="media/rothko.jpg" alt="An image of Rothkos black on maroon painting, black squares on maroon background" />
+  <figcaption>Rothko, Black on Maroon 3</figcaption>
+</figure>
+
+<p></p>
+
+<p>It's not only this but in real life there's not a great deal of this pure black, (or super black as <a href="https://twitter.com/benjaminbenben">Ben</a> dubbed it which I quite like). Light for the most part is around you and reflecting off things, even black things, meaning it's not <em>super</em> black. Also things you may think are black are not black. Both of my sisters, unlike myself, have straight, panten pro v, dark brown hair, in some cases some may say black hair, but in fact it is just very dark brown. Beetles, they're pretty super black, until you look a little closer and in fact they reflect like an oil slick.</p>
+
+<p>So what relevance does any of this really have? Aside from me wanting to write about it because one I'm painting again and two I'm just generally really into colour, we have managed to mass produce super black on the very thing you're looking at right now. It's easy to emulate super black on a screen, however, you should be very wary about doing so. Back at a conference in the autumn, a designer showed me their latest design. It was a good design, however without trying to detract from it, my feedback was to not use super black and, in fact, the super white they'd chosen, off set them slightly, just like you wouldn't use super black when painting. I call this the Apple effect; that almost upgraded posher feel you first got from using OS X or iOS can be put in part to the interfaces not being super black and super white. They're offset slightly. I've always coded designs with offset blacks &amp; whites - made easier with preprocessing:</p>
+
+<pre class="language-css"><code>// use super black or white
+$black: lighten(#000, 2%);
+$white: darken(#fff, 2%);
+
+// or darken/lighten your main design colour
+$black: darken($mainColour, 40%);
+$white: lighten($mainColour, 60%);
+</code></pre>
+
+<p>As with all rules there are exceptions - without breaking this one we would have never got <a href="http://www.wikiart.org/en/piet-mondrian/composition-no-10-1942">these</a> <a href="http://www.wikiart.org/en/roy-lichtenstein/in-the-car-1963">wonderful</a> <a href="http://www.wikiart.org/en/banksy/flower-thrower">paintings</a>.</p>
+
+
+  </div>
+  <div class="post-tags">
+    <p>Tags:
+       <!-- <li><a href="/blog/tags/black/">black</a></li> -->
+       <span>black,&nbsp;</span>
+       <!-- <li><a href="/blog/tags/colour/">colour</a></li> -->
+       <span>colour,&nbsp;</span>
+       <!-- <li><a href="/blog/tags/sass/">sass</a></li> -->
+       <span>sass,&nbsp;</span>
+       <!-- <li><a href="/blog/tags/art/">art</a></li> -->
+       <span>art,&nbsp;</span>
+    </p>
+  </div>
+</article>
+
+
+    </section>
+
+      <footer>
+      <ul class="nav-social">
+        <li><a href="http://www.twitter.com/rumyra" rel="external" class="icon-before i-twitter">Follow @rumyra on Twitter</a></li>
+        <li><a href="http://lanyrd.com/profile/rumyra/" rel="external" class="icon-before i-tags">Rumyra on Lanyrd</a></li>
+        <li><a href="http://www.github.com/rumyra" rel="external" class="icon-before i-github">Rumyra on Github</a></li>
+        <li><a href="http://codepen.io/Rumyra" rel="external" class="icon-before i-codepen">Rumyra on Codepen</a></li>
+        <li><a href="/feed.xml" class="icon-before i-rss">Get the RSS feed</a></li>
+        <li><span class="icon-before i-mobile">Say hello by text on +441287 244048</span></li>
+      </ul>
+      <p><span>© Rumyra's Head 2015</span><!--<a href="http://www.ruthjohn.com" rel="external">-->Designed by Ruth John</p>
+      
+    </footer>
+  </div>
+
+</body>
+</html>

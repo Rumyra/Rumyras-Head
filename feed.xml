@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Rumyra's Head</title>
+  <subtitle></subtitle>
+  <id>http://rumyrashead.com/</id>
+  <link href="http://rumyrashead.com/"/>
+  <link href="http://rumyrashead.com/feed.xml" rel="self"/>
+  <updated>2016-07-18T01:00:00+01:00</updated>
+  <author>
+    <name>Ruth John - @rumyra</name>
+  </author>
+  <entry>
+    <title>Moving On</title>
+    <link rel="alternate" href="http://rumyrashead.com/Moving-On.html"/>
+    <id>http://rumyrashead.com/Moving-On.html</id>
+    <published>2016-07-18T01:00:00+01:00</published>
+    <updated>2016-07-18T20:04:04+01:00</updated>
+    <author>
+      <name>Ruth John - @rumyra</name>
+    </author>
+    <content type="html">&lt;p&gt;Last week was my last official week at Telefonica (02). I had spent nearly exactly four years in their innovation department. So why move on now?&lt;/p&gt;
+
+&lt;p&gt;We all know the last year &lt;a href="http://rumyrashead.com/The-Summer-of-15.html"&gt;has been hard&lt;/a&gt; and even with all the treatment &lt;em&gt;and&lt;/em&gt; with all my moving forward I still need a bigger break, a bigger change. Not working full time for a company for a while will help with this. The past few months have been seeing me feel a &lt;strong&gt;lot&lt;/strong&gt; better, however I have some savings and am taking some time for a self imposed sabbatical.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;I won’t just be milling around though, I have speaking engagements booked up all the way until December! Which is amazing and also gives me the chance to do some travelling which has been on my bucket list for an extremely long time, always put on the back burner for career and work. Time to take a bit of a breather from the 9 to 5 take some time for some exploration!&lt;/p&gt;
+
+&lt;p&gt;Another reason to move on was the work wasn’t as challenging or web focussed as it had been at the beginning. Web technologies have progressed so much in the past four years and I have been so privileged to have the time to research and play with all the new ones, but the focus of the team had slowly begun to change and this wasn’t the objective anymore.&lt;/p&gt;
+
+&lt;p&gt;It is still mine however, and on top of this realising the course of my own career is important and having some space to do that at this point is needed. It’s been nearly 15 years, this is a long time. Before I got sick I was considering leaving the industry altogether due to a variety of different reasons, (something I shall write about when I have the strength), but this past year reignited my passion and there’s so many things I want to learn and even more things I want to build. I’m hoping this will give me the time.&lt;/p&gt;
+
+&lt;p&gt;I will be available for consultancy, speaking, writing and dev/design work (although the next few months are already getting busy!). My first project? Well I have two, because working on one thing at a time is sensible: A digital snowflake (more about this later) and my portfolio of course - keep a look out, I started the build today :D&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>✨ Rumyra's Cool Links! ✨</title>
+    <link rel="alternate" href="http://rumyrashead.com/Rumyras-Cool-Links-24-06-16.html"/>
+    <id>http://rumyrashead.com/Rumyras-Cool-Links-24-06-16.html</id>
+    <published>2016-06-24T01:00:00+01:00</published>
+    <updated>2016-07-18T19:53:30+01:00</updated>
+    <author>
+      <name>Ruth John - @rumyra</name>
+    </author>
+    <content type="html">&lt;h3 id="i-know-everything-is-crazy-today"&gt;I know, everything is crazy today!&lt;/h3&gt;
+
+&lt;p&gt;Everyone in the UK woke up and thought they were in some parallel evil universe. Europe are feeling a little betrayed/saddened and well, the rest of the world is confused by how they can afford to buy pounds now which is weird for everyone.&lt;/p&gt;
+
+&lt;p&gt;So here are my cool links to give you a few minutes of web mindfulness, which now appear at just random intervals, sometimes weekly, sometimes bi-weekly, sometimes monthly. Mostly when cool links happen.&lt;/p&gt;
+
+&lt;p&gt;Top of the weird day list is the weird and wonderful (ok stretching it a little here, just wonderful will do) &lt;a href="https://philna.sh/"&gt;Phil Nash&lt;/a&gt; who wrote a &lt;a href="https://medium.com/@philnash/the-surprise-multipart-form-data-332846989913#.k0s1bwwv2"&gt;great article on a problem he had using body-parser with the formData object&lt;/a&gt;. Not only because of the subject matter and it makes a good read, but really because he openly and honestly &lt;em&gt;shared a problem he had&lt;/em&gt; which I find a lot of us would be nervous in doing.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;We all feel a bit imposter syndrome at times and so when we do this problem solving thing that programming ultimately entails, we feel that sense of relief that we fixed it and we're good programmers and not to say anything and that we never had a problem in the first place and we're super cool. It's ok that sometimes we problem solve, or just skim read the docs or whatever. Let's share all the things and pat everyone on the back for it and it'll save loads of time in the future! Cool 😎&lt;/p&gt;
+
+&lt;p&gt;Google's &lt;a href="https://events.withgoogle.com/progressive-web-app-dev-summit/"&gt;Progressive Web App Summit&lt;/a&gt; happened! I wanted to give you a pick of the talks, but I was pretty much engrossed for the whole first day and I have the second to catch up on. it's cool tho, &lt;a href="https://www.youtube.com/watch?v=9Jef9IluQw0&amp;amp;list=PLNYkxOF6rcIAWWNR_Q6eLPhsyx6VvYjVb"&gt;all the talks are online&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href="http://trntxt.uk/"&gt;the most performant train times website ever that there was&lt;/a&gt;. That &lt;a href="https://twitter.com/danielthepope"&gt;Dan&lt;/a&gt; has thankfully made it for you. So screechingly fast it loads on 2G no problem. &lt;a href="https://www.youtube.com/watch?v=BSYIR5R3kAY&amp;amp;feature=youtu.be&amp;amp;a"&gt;Here he is giving a show and tell at JS Oxford&lt;/a&gt; about building it.&lt;/p&gt;
+
+&lt;h3 id="enough-already-wheres-the-moosique"&gt;Enough already, where's the moosique??&lt;/h3&gt;
+
+&lt;p&gt;Okay, okay! Do you use Atom editor? I don't, I tried it a while back and didn't find it as performant as Sublime. However &lt;a href="https://www.youtube.com/watch?v=sPUw_wJyOTA"&gt;there is this package that generates a synth tone every time you hit a key&lt;/a&gt;. I might install Atom, for like 5 minutes until it gets annoying.&lt;/p&gt;
+
+&lt;p&gt;What do you do with 180 custom circuit boards, 540 addressable LEDs and 150W of power. Well I don't need to say anymore, you can &lt;a href="https://www.youtube.com/watch?v=j2KwD5Is1Z8"&gt;just watch the video&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;MOAR SYNTHS. One day the cool links will just be an accumulative list I promise. &lt;a href="http://alexnisnevich.github.io/synthi-js/"&gt;Synthi-js&lt;/a&gt; allows you to upload samples, so that's cool.&lt;/p&gt;
+
+&lt;p&gt;It is a short and sweet one today, but I may have saved one of the coolest things til last. &lt;a href="http://timpietrusky.com/"&gt;Tim&lt;/a&gt; added some inspiration to &lt;a href="http://webvj.ninja/"&gt;our collective&lt;/a&gt; last week by &lt;a href="http://codepen.io/TimPietrusky/full/jrPRZR/"&gt;creating this little gem&lt;/a&gt;, so simple, complicated and yet so uber cool.&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>I got a Physical Web Beacon!</title>
+    <link rel="alternate" href="http://rumyrashead.com/Physical-Web-Beacon.html"/>
+    <id>http://rumyrashead.com/Physical-Web-Beacon.html</id>
+    <published>2016-06-13T01:00:00+01:00</published>
+    <updated>2016-07-18T19:17:34+01:00</updated>
+    <author>
+      <name>Ruth John - @rumyra</name>
+    </author>
+    <content type="html">&lt;figure&gt;
+  &lt;img src="media/beacon.jpg" /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Yay&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://twitter.com/dan_jenkins"&gt;Dan&lt;/a&gt; gave me a beacon! (Well &lt;a href="https://twitter.com/Paul_Kinlan"&gt;Paul&lt;/a&gt; gave him some beacons and then he gave me one, so thanks both).&lt;/p&gt;
+
+&lt;p&gt;Super hyped about this. I managed to get one through work and then the wonderful &lt;a href="https://twitter.com/edent"&gt;Terence&lt;/a&gt; took it back and &lt;a href="https://shkspr.mobi/blog/2016/02/inside-a-physical-web-ble-beacon/"&gt;hacked a la Terence stylee&lt;/a&gt; (he found out some cool things, I’m not bitter).&lt;/p&gt;
+
+&lt;p&gt;But this one is my very own. However looking on &lt;a href="https://google.github.io/physical-web/"&gt;the Google Physical website&lt;/a&gt;, or doing a search, there’s no simple instructions to just change a URL on a beacon, so here’s some things I found out whilst doing it:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;All I want to do is alter the URL which is being emitted by the device, that’s it, no fuss, simples (well mostly)…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;You need an app to do this. There is a &lt;a href="http://cf.physical-web.org/"&gt;web app&lt;/a&gt; if you’re on Chromebook (the Bluetooth Web API isn’t advanced enough on other versions of Chrome yet to work on other platforms). If you’re running android &lt;a href="https://play.google.com/store/apps/details?id=physical_web.org.physicalweb&amp;amp;hl=en_GB"&gt;this app&lt;/a&gt; comes recommended. My real caveat was I’m running an iPhone 6S and a Macbook Air OSX 10.11… trying to find an app that would link with my Beacon and update was the trickiest part. As I was given my beacon I don’t have a default manufacturer or app.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make sure Bluetooth is switched on.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Switch your beacon on and check it. I have the latest version of Chrome installed on my phone, so if I check my notifications under &lt;em&gt;'Chrome'&lt;/em&gt; it says &lt;em&gt;'Scanning for physical web devices'&lt;/em&gt; and then pops up with the URL set on the beacon, with an easy clickable link. Phew well that’s much easier than typing in a url! It also means your beacon is working. (If you don't have notifications switched on for Chrome &lt;a href="https://docs.pushmote.com/docs/how-to-enable-chromes-physical-web-extension-on-the-ios"&gt;check out this video&lt;/a&gt;)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class="media-feature"&gt;
+  &lt;img src="media/chromeNoti.jpg" /&gt;
+&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I want to change this url. I’m going to be carrying around the device in my handbag, so I’ll put my blog on it. Something to note is new physical web devices don’t accept non https urls.  Now here’s the deal, apps I tried that &lt;em&gt;didn’t&lt;/em&gt; work are: &lt;a href="https://itunes.apple.com/us/app/beacon-tools/id1094371356?mt=8"&gt;Beacon Tools&lt;/a&gt;, &lt;a href="https://itunes.apple.com/us/app/ebeacon-ibeacon-eddystone/id730279939?mt=8"&gt;eBeacon&lt;/a&gt; and &lt;a href="https://itunes.apple.com/us/app/my-beacon-best-beacon-manager/id850255614?mt=8"&gt;MyBeacon&lt;/a&gt; Thank you to &lt;a href="https://twitter.com/gnumanth"&gt;Hemanth&lt;/a&gt;, &lt;a href="https://twitter.com/dan_jenkins"&gt;Dan&lt;/a&gt;, &lt;a href="https://twitter.com/jefbinomed"&gt;Jean-François&lt;/a&gt; and &lt;a href="https://github.com/beaufortfrancois"&gt;Francois&lt;/a&gt; for they’re advice as I finally installed &lt;a href="https://itunes.apple.com/fr/app/physical-web/id927653608?mt=8"&gt;Physical Web app&lt;/a&gt; and sure enough managed to change the url.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There’s loads more to be said about configuring beacons, physical web and the web bluetooth api. If you get stuck I found the afore mentioned peeps very helpful.&lt;/p&gt;
+
+&lt;p&gt;Now to try and hack the hex data…&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>📢 Announcement Emoji&amp;#58; Weekly Cool Links!*</title>
+    <link rel="alternate" href="http://rumyrashead.com/Weekly-Cool-Links-27-05-16.html"/>
+    <id>http://rumyrashead.com/Weekly-Cool-Links-27-05-16.html</id>
+    <published>2016-05-27T01:00:00+01:00</published>
+    <updated>2016-07-18T19:17:34+01:00</updated>
+    <author>
+      <name>Ruth John - @rumyra</name>
+    </author>
+    <content type="html">&lt;h3 id="people-just-keep-sending-me-links"&gt;People just keep sending me links!&lt;/h3&gt;
+
+&lt;p&gt;It's so nice of them - they just tweet me cool sh*t… along with the stuff I read or see and go all like 'wo', I think this is becoming a bit of a regular thing.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/LukyVj/family.scss"&gt;Luky VJ bought out a sass mixin library&lt;/a&gt; to help with all those nth child thing-a-mees - that looks cool.&lt;/p&gt;
+
+&lt;p&gt;I could not agree more with &lt;a href="http://www.zeldman.com/2016/05/24/position-wanted-front-end-director/"&gt;this article by Mr. Zeldman&lt;/a&gt; about needing a Front End Director, not only for his good points, but from a personal point of view hitting a glass ceiling a while a go and always working under either technical or creative directors, neither of whom specialise in my line of work. This would solve both frustrations in one.&lt;/p&gt;
+
+&lt;p&gt;Working with serial devices (like arduinos) and MIDI? Then &lt;a href="http://projectgus.github.io/hairless-midiserial/"&gt;this piece of software should help&lt;/a&gt; a nice bridge to help send and receive MIDI.&lt;/p&gt;
+
+&lt;p&gt;I attended Google I/O Extended in London last week and only really caught the keynote, so have been catching up a bit this week. There's loads of web stuff, so go take a &lt;a href="https://www.youtube.com/playlist?list=PLOU2XLYxmsILe6_eGvDN3GyiodoV3qNSC"&gt;look through the listings&lt;/a&gt;, progressive web apps are super hot. My personal pick though has to be &lt;a href="https://www.youtube.com/watch?v=bK6Ah68jEX8&amp;amp;index=97&amp;amp;list=PLOU2XLYxmsILe6_eGvDN3GyiodoV3qNSC"&gt;Chris Wilsons What's Next For The Web tho&lt;/a&gt;, not only is it all the stuff I try to look at daily, but there's MIDI. It was on about midnight my time, but boy did I know about it, thanks to everyone for the tweets!&lt;/p&gt;
+
+&lt;h4 id="typically-heres-some-av"&gt;Typically here's some A/V&lt;/h4&gt;
+
+&lt;p&gt;It's great to see some more people &lt;a href="https://codepen.io/Rumyra/pen/ojoGwb"&gt;piping the audio from a mic into web visuals&lt;/a&gt; - here's some &lt;a href="https://the-way-we-move.surge.sh/"&gt;really gorgeous canvas ones&lt;/a&gt; from &lt;a href="https://twitter.com/_dhar"&gt;Olivier Audard&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://twitter.com/sil"&gt;Stuart&lt;/a&gt; pointed out someone's recreated &lt;a href="http://loov.io/jsfx/"&gt;SFXR in javascript…&lt;/a&gt;. Amazing.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://twitter.com/matharden"&gt;Mat&lt;/a&gt; sent me &lt;a href="https://vimeo.com/163266757"&gt;drone ballet on Mount Fuji&lt;/a&gt; - I think I'd either seen this or wanted to create a drone light army to music extraveganza at some point (this will happen don't worry).&lt;/p&gt;
+
+&lt;p&gt;And last but definitely not least &lt;a href="https://twitter.com/omgmog"&gt;Max&lt;/a&gt; sent me &lt;a href="https://ojack.github.io/PIXELSYNTH/"&gt;Pixelsynth&lt;/a&gt; - no words can really describe this - it is just awesome - I wish I'd thought of it.&lt;/p&gt;
+
+&lt;h4 id="my-friends-have-been-busy-doing-cool-things-this-week"&gt;My friends have been busy doing cool things this week&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href="https://twitter.com/benjaminbenben"&gt;Ben&lt;/a&gt; has been &lt;a href="https://historoji.herokuapp.com/"&gt;data visualising with our emojis&lt;/a&gt; in Digital Oxford slack - this is not only a super cool link, but also totally relevant to something I'm wanting to build at the moment so I was all like 'super wo'. Can you tell the point at which we get My Little Pony emojis? Or rather I get obsessed with the My Little Pony emojis…&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://twitter.com/edent"&gt;Terence&lt;/a&gt; has been &lt;a href="https://shkspr.mobi/blog/2016/05/singing-to-my-light-bulbs/"&gt;controlling his connecting home with his very own voice!&lt;/a&gt; Yes using his hack you can say a colour and the light will change. I should invent a drinking game which involves film titles with colours and go and play it at his house.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://twitter.com/Jack_Franklin"&gt;Jack&lt;/a&gt; has put together a &lt;a href="https://github.com/jackfranklin/express-server-boilerplate"&gt;boilerplate for a simple node/express build&lt;/a&gt;. I've already found this pretty handy, thank you Jack.&lt;/p&gt;
+
+&lt;p&gt;And as always let's end with a personal one. Here's &lt;em&gt;my&lt;/em&gt; &lt;a href="https://www.youtube.com/watch?v=x2v3mQOvOms&amp;amp;feature=youtu.be"&gt;MIDI talk from Web Progressions&lt;/a&gt; at Campus London a few weeks back. Stunning day conf to be a part of!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>The Colour Black</title>
+    <link rel="alternate" href="http://rumyrashead.com/The-Colour-Black.html"/>
+    <id>http://rumyrashead.com/The-Colour-Black.html</id>
+    <published>2016-05-14T01:00:00+01:00</published>
+    <updated>2016-07-18T19:17:34+01:00</updated>
+    <author>
+      <name>Ruth John - @rumyra</name>
+    </author>
+    <content type="html">&lt;p&gt;When I was studying art in college, one of the first things we were taught when painting, was not to use the colour black, to mix it instead. Straight, pure black that comes out of a tube of paint is extremely strong and when used as shadows or dark places within paintings and alongside other colours actually zaps away these colours or soaks them all up. Leaving a very dull colourless painting devoid of the levels and tones you get from, well, colour. By mixing a very dark shade, usually from a combination of other colours you are using, (dark blues, greens &amp;amp; reds combined make good faux blacks), you keep colours and avoid zapping the painting of tone.&lt;/p&gt;
+
+&lt;figure class="media-feature"&gt;
+  &lt;img src="media/rothko.jpg" alt="An image of Rothkos black on maroon painting, black squares on maroon background" /&gt;
+  &lt;figcaption&gt;Rothko, Black on Maroon 3&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;It's not only this but in real life there's not a great deal of this pure black, (or super black as &lt;a href="https://twitter.com/benjaminbenben"&gt;Ben&lt;/a&gt; dubbed it which I quite like). Light for the most part is around you and reflecting off things, even black things, meaning it's not &lt;em&gt;super&lt;/em&gt; black. Also things you may think are black are not black. Both of my sisters, unlike myself, have straight, panten pro v, dark brown hair, in some cases some may say black hair, but in fact it is just very dark brown. Beetles, they're pretty super black, until you look a little closer and in fact they reflect like an oil slick.&lt;/p&gt;
+
+&lt;p&gt;So what relevance does any of this really have? Aside from me wanting to write about it because one I'm painting again and two I'm just generally really into colour, we have managed to mass produce super black on the very thing you're looking at right now. It's easy to emulate super black on a screen, however, you should be very wary about doing so. Back at a conference in the autumn, a designer showed me their latest design. It was a good design, however without trying to detract from it, my feedback was to not use super black and, in fact, the super white they'd chosen, off set them slightly, just like you wouldn't use super black when painting. I call this the Apple effect; that almost upgraded posher feel you first got from using OS X or iOS can be put in part to the interfaces not being super black and super white. They're offset slightly. I've always coded designs with offset blacks &amp;amp; whites - made easier with preprocessing:&lt;/p&gt;
+
+&lt;pre class="language-css"&gt;&lt;code&gt;// use super black or white
+$black: lighten(#000, 2%);
+$white: darken(#fff, 2%);
+
+// or darken/lighten your main design colour
+$black: darken($mainColour, 40%);
+$white: lighten($mainColour, 60%);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As with all rules there are exceptions - without breaking this one we would have never got &lt;a href="http://www.wikiart.org/en/piet-mondrian/composition-no-10-1942"&gt;these&lt;/a&gt; &lt;a href="http://www.wikiart.org/en/roy-lichtenstein/in-the-car-1963"&gt;wonderful&lt;/a&gt; &lt;a href="http://www.wikiart.org/en/banksy/flower-thrower"&gt;paintings&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>📢 Announcement Emoji&amp;#58; Weekly Cool Links!*</title>
+    <link rel="alternate" href="http://rumyrashead.com/Weekly-Cool-Links-08-05-16.html"/>
+    <id>http://rumyrashead.com/Weekly-Cool-Links-08-05-16.html</id>
+    <published>2016-05-08T01:00:00+01:00</published>
+    <updated>2016-07-18T19:17:34+01:00</updated>
+    <author>
+      <name>Ruth John - @rumyra</name>
+    </author>
+    <content type="html">&lt;h3 id="this-week-theres-just-cool-links"&gt;This week there's just cool links!&lt;/h3&gt;
+
+&lt;p&gt;People have shared with me a number of cool things this week, along side the other cool things I've seen, I thought that's all we really needed this week!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.sciencealert.com/new-smart-threads-can-change-the-colour-of-your-clothes-instantly"&gt;Colour changing thread with electrical current&lt;/a&gt; I think tops the list - I think. Having worked with conductive thread it's not too nice, so I'm guessing there's a long way to go really. But the video &lt;em&gt;does&lt;/em&gt; feature crochet, so I was sold from the start.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Google's &lt;a href="http://www.tiltbrush.com/"&gt;Tilt Brush for the Vive&lt;/a&gt; is here. 3D painting in virtual reality - which actually is about the first thing that makes me want one of these VR headsets. But for the £700 price tag(!) this girl's gettin a new pooter first.&lt;/p&gt;
+
+&lt;p&gt;BBC R&amp;amp;D are &lt;a href="http://www.bbc.co.uk/rd/blog/2016/04/videocontext"&gt;doing for video what the Web Audio API does for audio&lt;/a&gt; - now this &lt;em&gt;is&lt;/em&gt; super interesting. There's not a lot on the web so far for processing video, their &lt;a href="https://github.com/bbc/html5-video-compositor"&gt;HTML5-Video-Compositor library&lt;/a&gt; allows you to 'edit and composite video dynamically in JavaScript'. That's pretty wowsers.&lt;/p&gt;
+
+&lt;p&gt;Speaking of doing things dynamically in JavaScript (I uaually go with magically, but ok ;) ) check this bad boy out. Actual music tunes made on the fly, with JS code… &lt;a href="http://tinyrave.com/"&gt;TinyRave&lt;/a&gt; literally is hurting my brain ever so slightly. I'm poking around the code. The music stuff is the easy bit to understand with this one… some parts of the code I'm all like ¯\&lt;em&gt;(ツ)&lt;/em&gt;/¯  very clever and very nice to use.&lt;/p&gt;
+
+&lt;p&gt;Other audio based things include &lt;a href="http://www.creativebloq.com/logos/self-generating-logo-transforms-response-sound-51620205"&gt;this logo that changes depending on ambient sound&lt;/a&gt;, from Wolff Olins; something which is right up my street. I'm on tenderhooks just thinking of all the wonderful visuals I can code along these lines.&lt;/p&gt;
+
+&lt;p&gt;No it's not web it's native :S but Moog have created one of their old &lt;a href="http://www.theverge.com/2016/5/4/11589948/moog-app-synthesizer-model-15-ios"&gt;$10k synths in software form&lt;/a&gt;… pretty impressive.&lt;/p&gt;
+
+&lt;p&gt;Slightly on an aside &lt;a href="https://www.nexmo.com/"&gt;Nexmo&lt;/a&gt; introduced &lt;a href="https://www.nexmo.com/blog/2016/05/03/developer-relations-at-nexmo/"&gt;their cool new dev rel team&lt;/a&gt;. Some cool people there.&lt;/p&gt;
+
+&lt;p&gt;And of course saving the most exciting news for last… I'm going to Pittsburgh to speak at the utterly amazingly, gert lush cool, Abstrations conference. Look at all those cool people on &lt;a href="http://abstractions.io/"&gt;this cool link right here!&lt;/a&gt; (I'd better get cool quick!)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;*There is every chance this will not happen every week&lt;/p&gt;
+</content>
+  </entry>
+</feed>
