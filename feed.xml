@@ -5,10 +5,45 @@
   <id>http://rumyrashead.com/</id>
   <link href="http://rumyrashead.com/"/>
   <link href="http://rumyrashead.com/feed.xml" rel="self"/>
-  <updated>2016-07-18T01:00:00+01:00</updated>
+  <updated>2016-07-20T01:00:00+01:00</updated>
   <author>
     <name>Ruth John - @rumyra</name>
   </author>
+  <entry>
+    <title>✨ Rumyra's Cool Links! ✨</title>
+    <link rel="alternate" href="http://rumyrashead.com/Rumyras-Cool-Links-20-07-16.html"/>
+    <id>http://rumyrashead.com/Rumyras-Cool-Links-20-07-16.html</id>
+    <published>2016-07-20T01:00:00+01:00</published>
+    <updated>2016-07-20T18:08:08+01:00</updated>
+    <author>
+      <name>Ruth John - @rumyra</name>
+    </author>
+    <content type="html">&lt;p&gt;Phew, isn’t it warm 🌞🔥☀️*&lt;/p&gt;
+
+&lt;p&gt;Well then, I guess it’s time for another instalment of ‘Rumyra’s Cool Links’ (the time will come when this has it’s own space).&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*For those viewing outside the UK it was 35 degrees yesterday and the country melted, we are currently trying to reanimate ourselves.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Easily and undoubtably top of my cool links this time is &lt;a href="https://codepen.io/jakealbaugh/full/qNrZyw"&gt;Jake Albaugh’s arpeggiator&lt;/a&gt;. I just can &lt;em&gt;not&lt;/em&gt; get enough of this. What an inspired, solid, clever and useful piece of engineering. It basically sums up everything ever about ‘why do we have the audio api again?’.&lt;/p&gt;
+
+&lt;p&gt;This. That is all. Thanks &lt;a href="https://twitter.com/jake_albaugh"&gt;Mr. Albaugh&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There is also &lt;a href="http://superlooper.universlabs.co.uk/"&gt;Superlooper&lt;/a&gt; from &lt;a href="http://www.universlabs.co.uk/"&gt;Univers Labs&lt;/a&gt; which not only contains beautiful loops but also visuals which are just simple but inspirational. (Very close to my own doodles around A/V so they’ll be more like this I’m sure).&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;If you want a hand with your audio visual creations &lt;a href="https://twitter.com/likethemammal"&gt;Chris Dolphin&lt;/a&gt; has created &lt;a href="https://github.com/likethemammal/visualizer-micro"&gt;visualizer-micro.js&lt;/a&gt; a teeny library wrapping just the analysis parts of the audio API, inspired by the methods from that ol’ dancer.js (man that feels like a decade ago right?).&lt;/p&gt;
+
+&lt;p&gt;Other things that are cool include &lt;a href="http://bigstory.ap.org/article/ab73d19c160c4c509dc6b9decfec3c0f/south-korea-uses-technology-help-pregnant-women-get-seats"&gt;a great use of beacon technology to help pregnant women&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=hKRLcQ2Y8kA"&gt;This talk I saw at Oxford JS last month&lt;/a&gt; by &lt;a href="https://twitter.com/ashok_menon"&gt;Ashok Menon&lt;/a&gt; literally writing a language &lt;em&gt;with&lt;/em&gt; a language, or something, it was all like 😳 Very cool tho.&lt;/p&gt;
+
+&lt;p&gt;I know others have linked to it, but the tab’s been open so long I couldn’t not include it. This is a &lt;a href="http://a.singlediv.com/"&gt;great showcase of what you can do with just one div and a love affair with CSS&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And if you’re still hot after all that go and buy yourself a cool print, I saw this one and thought it was cool: &lt;a href="http://www.wearedorothy.com/shop/inside-information-minimoog"&gt;The insides of a Minimoog&lt;/a&gt; featuring all your fav artists.&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>Moving On</title>
     <link rel="alternate" href="http://rumyrashead.com/Moving-On.html"/>
@@ -197,42 +232,6 @@ $white: lighten($mainColour, 60%);
 
 &lt;p&gt;As with all rules there are exceptions - without breaking this one we would have never got &lt;a href="http://www.wikiart.org/en/piet-mondrian/composition-no-10-1942"&gt;these&lt;/a&gt; &lt;a href="http://www.wikiart.org/en/roy-lichtenstein/in-the-car-1963"&gt;wonderful&lt;/a&gt; &lt;a href="http://www.wikiart.org/en/banksy/flower-thrower"&gt;paintings&lt;/a&gt;.&lt;/p&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>📢 Announcement Emoji&amp;#58; Weekly Cool Links!*</title>
-    <link rel="alternate" href="http://rumyrashead.com/Weekly-Cool-Links-08-05-16.html"/>
-    <id>http://rumyrashead.com/Weekly-Cool-Links-08-05-16.html</id>
-    <published>2016-05-08T01:00:00+01:00</published>
-    <updated>2016-07-18T19:17:34+01:00</updated>
-    <author>
-      <name>Ruth John - @rumyra</name>
-    </author>
-    <content type="html">&lt;h3 id="this-week-theres-just-cool-links"&gt;This week there's just cool links!&lt;/h3&gt;
-
-&lt;p&gt;People have shared with me a number of cool things this week, along side the other cool things I've seen, I thought that's all we really needed this week!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://www.sciencealert.com/new-smart-threads-can-change-the-colour-of-your-clothes-instantly"&gt;Colour changing thread with electrical current&lt;/a&gt; I think tops the list - I think. Having worked with conductive thread it's not too nice, so I'm guessing there's a long way to go really. But the video &lt;em&gt;does&lt;/em&gt; feature crochet, so I was sold from the start.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;Google's &lt;a href="http://www.tiltbrush.com/"&gt;Tilt Brush for the Vive&lt;/a&gt; is here. 3D painting in virtual reality - which actually is about the first thing that makes me want one of these VR headsets. But for the £700 price tag(!) this girl's gettin a new pooter first.&lt;/p&gt;
-
-&lt;p&gt;BBC R&amp;amp;D are &lt;a href="http://www.bbc.co.uk/rd/blog/2016/04/videocontext"&gt;doing for video what the Web Audio API does for audio&lt;/a&gt; - now this &lt;em&gt;is&lt;/em&gt; super interesting. There's not a lot on the web so far for processing video, their &lt;a href="https://github.com/bbc/html5-video-compositor"&gt;HTML5-Video-Compositor library&lt;/a&gt; allows you to 'edit and composite video dynamically in JavaScript'. That's pretty wowsers.&lt;/p&gt;
-
-&lt;p&gt;Speaking of doing things dynamically in JavaScript (I uaually go with magically, but ok ;) ) check this bad boy out. Actual music tunes made on the fly, with JS code… &lt;a href="http://tinyrave.com/"&gt;TinyRave&lt;/a&gt; literally is hurting my brain ever so slightly. I'm poking around the code. The music stuff is the easy bit to understand with this one… some parts of the code I'm all like ¯\&lt;em&gt;(ツ)&lt;/em&gt;/¯  very clever and very nice to use.&lt;/p&gt;
-
-&lt;p&gt;Other audio based things include &lt;a href="http://www.creativebloq.com/logos/self-generating-logo-transforms-response-sound-51620205"&gt;this logo that changes depending on ambient sound&lt;/a&gt;, from Wolff Olins; something which is right up my street. I'm on tenderhooks just thinking of all the wonderful visuals I can code along these lines.&lt;/p&gt;
-
-&lt;p&gt;No it's not web it's native :S but Moog have created one of their old &lt;a href="http://www.theverge.com/2016/5/4/11589948/moog-app-synthesizer-model-15-ios"&gt;$10k synths in software form&lt;/a&gt;… pretty impressive.&lt;/p&gt;
-
-&lt;p&gt;Slightly on an aside &lt;a href="https://www.nexmo.com/"&gt;Nexmo&lt;/a&gt; introduced &lt;a href="https://www.nexmo.com/blog/2016/05/03/developer-relations-at-nexmo/"&gt;their cool new dev rel team&lt;/a&gt;. Some cool people there.&lt;/p&gt;
-
-&lt;p&gt;And of course saving the most exciting news for last… I'm going to Pittsburgh to speak at the utterly amazingly, gert lush cool, Abstrations conference. Look at all those cool people on &lt;a href="http://abstractions.io/"&gt;this cool link right here!&lt;/a&gt; (I'd better get cool quick!)&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;*There is every chance this will not happen every week&lt;/p&gt;
 </content>
   </entry>
 </feed>
