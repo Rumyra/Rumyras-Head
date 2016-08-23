@@ -5,16 +5,43 @@
   <id>http://rumyrashead.com/</id>
   <link href="http://rumyrashead.com/"/>
   <link href="http://rumyrashead.com/feed.xml" rel="self"/>
-  <updated>2016-07-25T01:00:00+01:00</updated>
+  <updated>2016-08-22T20:00:00-04:00</updated>
   <author>
     <name>Ruth John - @rumyra</name>
   </author>
   <entry>
+    <title>✨ Rumyra's Cool Links! ✨</title>
+    <link rel="alternate" href="http://rumyrashead.com/Rumyras-Cool-Links-23-08-16.html"/>
+    <id>http://rumyrashead.com/Rumyras-Cool-Links-23-08-16.html</id>
+    <published>2016-08-22T20:00:00-04:00</published>
+    <updated>2016-08-23T19:36:48-04:00</updated>
+    <author>
+      <name>Ruth John - @rumyra</name>
+    </author>
+    <content type="html">&lt;p&gt;I wrote this two days ago when I was stuck in an airport. I'm sure each one of you has frequented an airport recently what with it being the summer holidays and all. In fact you might even be reading this in an airport. It's not a long one, I've been a bit out of touch with the travelling, but there's still some gems 💎&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://twitter.com/onishiweb"&gt;Adam's&lt;/a&gt; been doing some great writing recently, check out &lt;a href="http://adamonishi.com/"&gt;his blog&lt;/a&gt; if you don't already. &lt;a href="http://adamonishi.com/2016/08/web-components-and-progressive-enhancement/"&gt;This article about Web Components and progressive enhancements&lt;/a&gt; is especially cool.&lt;/p&gt;
+
+&lt;p&gt;Something also super helpful for me recently was &lt;a href="https://blog.codecentric.de/en/2016/07/getting-started-webpack/"&gt;this blog post from Daniel Mies&lt;/a&gt; about getting started with webpack. I was postCSS/cssnext-ing and not only was &lt;a href="https://twitter.com/danielmies"&gt;Daniel&lt;/a&gt; extremely helpful (super cool person to follow), but so was his post.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://mewo2.com/notes/terrain/"&gt;Generate your own map&lt;/a&gt; using a really well thought out process and well documented. In face check out &lt;a href="http://mewo2.com/"&gt;Martin's homepage&lt;/a&gt; it appears everything he does is a pretty cool link.&lt;/p&gt;
+
+&lt;p&gt;Not audio enough for you yet? I've been checking out and playing around with &lt;a href="https://github.com/Tonejs/Tone.js"&gt;Tone.js&lt;/a&gt; recently. It's a super nice layer over the Web Audio API. Me and &lt;a href="https://twitter.com/_2xAA"&gt;Sam&lt;/a&gt; put together a cool thing which I will share after I've stopped demoing it at conferences. (I promise it's super cool).&lt;/p&gt;
+
+&lt;p&gt;Not cool enough for you yet?  Check out &lt;a href="http://executabledreams.net/B/emojiwin"&gt;this insane emoji fest&lt;/a&gt; - solitare style graphics on canvas - also supports multi touch events! Yup, I think it's actually too cool. 🎶💥🎉😎💙&lt;/p&gt;
+
+&lt;p&gt;Oh and it's my birthday in a month. Yes, I know you're thinking: 'What the 😳 can I get Ruth? She's already got like 5 MIDI controllers…' Well you can totally &lt;a href="https://www.paypal.me/rumyra"&gt;donate to the Holtzmanns glasses fund&lt;/a&gt;. Yes I super think having a &lt;a href="http://www.liveforfilm.com/2016/08/04/ghostbusters-you-can-buy-holtzmanns-glasses/"&gt;pair of these&lt;/a&gt; from the recent Ghostbusters would be super cool to VJ in 😎-&amp;gt;😆 Hell I'd even wear them when writing these cool links posts, and that would easily make them ten times cooler!&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
     <title>Font Awesome SVGs</title>
     <link rel="alternate" href="http://rumyrashead.com/Font-Awesome-SVGs.html"/>
     <id>http://rumyrashead.com/Font-Awesome-SVGs.html</id>
-    <published>2016-07-25T01:00:00+01:00</published>
-    <updated>2016-07-25T14:12:42+01:00</updated>
+    <published>2016-07-24T20:00:00-04:00</published>
+    <updated>2016-07-25T09:12:42-04:00</updated>
     <author>
       <name>Ruth John - @rumyra</name>
     </author>
@@ -47,8 +74,8 @@
     <title>✨ Rumyra's Cool Links! ✨</title>
     <link rel="alternate" href="http://rumyrashead.com/Rumyras-Cool-Links-20-07-16.html"/>
     <id>http://rumyrashead.com/Rumyras-Cool-Links-20-07-16.html</id>
-    <published>2016-07-20T01:00:00+01:00</published>
-    <updated>2016-07-21T10:04:56+01:00</updated>
+    <published>2016-07-19T20:00:00-04:00</published>
+    <updated>2016-07-21T05:04:56-04:00</updated>
     <author>
       <name>Ruth John - @rumyra</name>
     </author>
@@ -82,8 +109,8 @@
     <title>Moving On</title>
     <link rel="alternate" href="http://rumyrashead.com/Moving-On.html"/>
     <id>http://rumyrashead.com/Moving-On.html</id>
-    <published>2016-07-18T01:00:00+01:00</published>
-    <updated>2016-07-18T20:04:04+01:00</updated>
+    <published>2016-07-17T20:00:00-04:00</published>
+    <updated>2016-07-18T15:04:04-04:00</updated>
     <author>
       <name>Ruth John - @rumyra</name>
     </author>
@@ -106,8 +133,8 @@
     <title>✨ Rumyra's Cool Links! ✨</title>
     <link rel="alternate" href="http://rumyrashead.com/Rumyras-Cool-Links-24-06-16.html"/>
     <id>http://rumyrashead.com/Rumyras-Cool-Links-24-06-16.html</id>
-    <published>2016-06-24T01:00:00+01:00</published>
-    <updated>2016-07-18T19:53:30+01:00</updated>
+    <published>2016-06-23T20:00:00-04:00</published>
+    <updated>2016-07-18T14:53:30-04:00</updated>
     <author>
       <name>Ruth John - @rumyra</name>
     </author>
@@ -143,8 +170,8 @@
     <title>I got a Physical Web Beacon!</title>
     <link rel="alternate" href="http://rumyrashead.com/Physical-Web-Beacon.html"/>
     <id>http://rumyrashead.com/Physical-Web-Beacon.html</id>
-    <published>2016-06-13T01:00:00+01:00</published>
-    <updated>2016-07-18T19:17:34+01:00</updated>
+    <published>2016-06-12T20:00:00-04:00</published>
+    <updated>2016-07-18T14:17:34-04:00</updated>
     <author>
       <name>Ruth John - @rumyra</name>
     </author>
@@ -187,50 +214,6 @@
 &lt;p&gt;There’s loads more to be said about configuring beacons, physical web and the web bluetooth api. If you get stuck I found the afore mentioned peeps very helpful.&lt;/p&gt;
 
 &lt;p&gt;Now to try and hack the hex data…&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>📢 Announcement Emoji&amp;#58; Weekly Cool Links!*</title>
-    <link rel="alternate" href="http://rumyrashead.com/Weekly-Cool-Links-27-05-16.html"/>
-    <id>http://rumyrashead.com/Weekly-Cool-Links-27-05-16.html</id>
-    <published>2016-05-27T01:00:00+01:00</published>
-    <updated>2016-07-18T19:17:34+01:00</updated>
-    <author>
-      <name>Ruth John - @rumyra</name>
-    </author>
-    <content type="html">&lt;h3 id="people-just-keep-sending-me-links"&gt;People just keep sending me links!&lt;/h3&gt;
-
-&lt;p&gt;It's so nice of them - they just tweet me cool sh*t… along with the stuff I read or see and go all like 'wo', I think this is becoming a bit of a regular thing.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://github.com/LukyVj/family.scss"&gt;Luky VJ bought out a sass mixin library&lt;/a&gt; to help with all those nth child thing-a-mees - that looks cool.&lt;/p&gt;
-
-&lt;p&gt;I could not agree more with &lt;a href="http://www.zeldman.com/2016/05/24/position-wanted-front-end-director/"&gt;this article by Mr. Zeldman&lt;/a&gt; about needing a Front End Director, not only for his good points, but from a personal point of view hitting a glass ceiling a while a go and always working under either technical or creative directors, neither of whom specialise in my line of work. This would solve both frustrations in one.&lt;/p&gt;
-
-&lt;p&gt;Working with serial devices (like arduinos) and MIDI? Then &lt;a href="http://projectgus.github.io/hairless-midiserial/"&gt;this piece of software should help&lt;/a&gt; a nice bridge to help send and receive MIDI.&lt;/p&gt;
-
-&lt;p&gt;I attended Google I/O Extended in London last week and only really caught the keynote, so have been catching up a bit this week. There's loads of web stuff, so go take a &lt;a href="https://www.youtube.com/playlist?list=PLOU2XLYxmsILe6_eGvDN3GyiodoV3qNSC"&gt;look through the listings&lt;/a&gt;, progressive web apps are super hot. My personal pick though has to be &lt;a href="https://www.youtube.com/watch?v=bK6Ah68jEX8&amp;amp;index=97&amp;amp;list=PLOU2XLYxmsILe6_eGvDN3GyiodoV3qNSC"&gt;Chris Wilsons What's Next For The Web tho&lt;/a&gt;, not only is it all the stuff I try to look at daily, but there's MIDI. It was on about midnight my time, but boy did I know about it, thanks to everyone for the tweets!&lt;/p&gt;
-
-&lt;h4 id="typically-heres-some-av"&gt;Typically here's some A/V&lt;/h4&gt;
-
-&lt;p&gt;It's great to see some more people &lt;a href="https://codepen.io/Rumyra/pen/ojoGwb"&gt;piping the audio from a mic into web visuals&lt;/a&gt; - here's some &lt;a href="https://the-way-we-move.surge.sh/"&gt;really gorgeous canvas ones&lt;/a&gt; from &lt;a href="https://twitter.com/_dhar"&gt;Olivier Audard&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://twitter.com/sil"&gt;Stuart&lt;/a&gt; pointed out someone's recreated &lt;a href="http://loov.io/jsfx/"&gt;SFXR in javascript…&lt;/a&gt;. Amazing.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://twitter.com/matharden"&gt;Mat&lt;/a&gt; sent me &lt;a href="https://vimeo.com/163266757"&gt;drone ballet on Mount Fuji&lt;/a&gt; - I think I'd either seen this or wanted to create a drone light army to music extraveganza at some point (this will happen don't worry).&lt;/p&gt;
-
-&lt;p&gt;And last but definitely not least &lt;a href="https://twitter.com/omgmog"&gt;Max&lt;/a&gt; sent me &lt;a href="https://ojack.github.io/PIXELSYNTH/"&gt;Pixelsynth&lt;/a&gt; - no words can really describe this - it is just awesome - I wish I'd thought of it.&lt;/p&gt;
-
-&lt;h4 id="my-friends-have-been-busy-doing-cool-things-this-week"&gt;My friends have been busy doing cool things this week&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href="https://twitter.com/benjaminbenben"&gt;Ben&lt;/a&gt; has been &lt;a href="https://historoji.herokuapp.com/"&gt;data visualising with our emojis&lt;/a&gt; in Digital Oxford slack - this is not only a super cool link, but also totally relevant to something I'm wanting to build at the moment so I was all like 'super wo'. Can you tell the point at which we get My Little Pony emojis? Or rather I get obsessed with the My Little Pony emojis…&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://twitter.com/edent"&gt;Terence&lt;/a&gt; has been &lt;a href="https://shkspr.mobi/blog/2016/05/singing-to-my-light-bulbs/"&gt;controlling his connecting home with his very own voice!&lt;/a&gt; Yes using his hack you can say a colour and the light will change. I should invent a drinking game which involves film titles with colours and go and play it at his house.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://twitter.com/Jack_Franklin"&gt;Jack&lt;/a&gt; has put together a &lt;a href="https://github.com/jackfranklin/express-server-boilerplate"&gt;boilerplate for a simple node/express build&lt;/a&gt;. I've already found this pretty handy, thank you Jack.&lt;/p&gt;
-
-&lt;p&gt;And as always let's end with a personal one. Here's &lt;em&gt;my&lt;/em&gt; &lt;a href="https://www.youtube.com/watch?v=x2v3mQOvOms&amp;amp;feature=youtu.be"&gt;MIDI talk from Web Progressions&lt;/a&gt; at Campus London a few weeks back. Stunning day conf to be a part of!&lt;/p&gt;
 </content>
   </entry>
 </feed>
