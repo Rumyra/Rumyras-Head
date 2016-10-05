@@ -51,33 +51,6 @@
 </content>
   </entry>
   <entry>
-    <title>Things I Learned While Travelling</title>
-    <link rel="alternate" href="http://rumyrashead.com/travelling.html"/>
-    <id>http://rumyrashead.com/travelling.html</id>
-    <published>2016-08-25T01:00:00+01:00</published>
-    <updated>2016-10-05T13:30:26+01:00</updated>
-    <author>
-      <name>Ruth John - @rumyra</name>
-    </author>
-    <content type="html">&lt;p&gt;After the events of the past couple of years, which may sound ambigious, but sufficly made me take a good loook at my life and ended up with me getting a mortgage, quitting my job and travelling (yes I know some of those are contradictory but meh) I have spent a lot of time this year so far on the road.&lt;/p&gt;
-
-&lt;p&gt;It's been amazing - I feel extremely priviledged to be able to wander across the western world. I haven't had the money or time in my life so far and making it my priority this year has been a life time ambition and has helped heal me in a number of ways. However there have been a few unexpected things I've learnt.&lt;/p&gt;
-
-&lt;p&gt;It's exhausting - uttely. I'm on my longest trip so far as I write this, 19 days. I forgot to take a break day in the middle somewhere with nothing to do where I could stay in, sleep, go to a spa or something. I've hopped from city to city, jumping on trains, planes, utterly exchausted from walking miles everyday! And people do this for months at a time. I'm just doing it for weeks!&lt;/p&gt;
-
-&lt;p&gt;It's super expensive - you think you can travel on the cheap. Even with public transport, picking up cheap food in supermarkets, staying at hostels and airbnbs… it's still expensive. As soon as you leave the house you're spending money. (Also if you're UK based that whole pound is weak thing really &lt;em&gt;does&lt;/em&gt; make a difference).&lt;/p&gt;
-
-&lt;p&gt;I can travel on one carry on backpack. Yeh sure it's a super nice carry on size special backpack that actually holds 30L (see here, it's a Douchbag if you're asking). I've surprised myself by not needing anything, and I'm going from summer (40deg) to Brazilian winter (15deg) I've got my laptop, very small bottles of a zillion toileteries, a few changes of clothing and am doing laundary when I need to.&lt;/p&gt;
-
-&lt;p&gt;It's been extremely useful having one backpack. Having carry on means you will always have your luggage with you. This is important. I've had three cancelled flights this year and if I'd checked in my luggage it wouldn't have been with me by the time I would have gotten where I needed to go. It's with me right here right now and it gives me great piece of mind. When I change flights in Sau Paulo I don't have to waste time collecting baggage. When I flew into JFK instead of Newark on Sunday I didn't have to worry my luggage was somewhere completely different.&lt;/p&gt;
-
-&lt;p&gt;You can do an amazing amount in one day. I spent 48 in New York and although I can't wait to go back I feel like I ran around that city. I've seen it.&lt;/p&gt;
-
-&lt;p&gt;People are people whereever you go. Be nice and they're nice back.&lt;/p&gt;
-
-</content>
-  </entry>
-  <entry>
     <title>✨ Rumyra's Cool Links! ✨</title>
     <link rel="alternate" href="http://rumyrashead.com/Rumyras-Cool-Links-23-08-16.html"/>
     <id>http://rumyrashead.com/Rumyras-Cool-Links-23-08-16.html</id>
@@ -195,6 +168,43 @@
 &lt;p&gt;It is still mine however, and on top of this realising the course of my own career is important and having some space to do that at this point is needed. It’s been nearly 15 years, this is a long time. Before I got sick I was considering leaving the industry altogether due to a variety of different reasons, (something I shall write about when I have the strength), but this past year reignited my passion and there’s so many things I want to learn and even more things I want to build. I’m hoping this will give me the time.&lt;/p&gt;
 
 &lt;p&gt;I will be available for consultancy, speaking, writing and dev/design work (although the next few months are already getting busy!). My first project? Well I have two, because working on one thing at a time is sensible: A digital snowflake (more about this later) and my portfolio of course - keep a look out, I started the build today :D&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>✨ Rumyra's Cool Links! ✨</title>
+    <link rel="alternate" href="http://rumyrashead.com/Rumyras-Cool-Links-24-06-16.html"/>
+    <id>http://rumyrashead.com/Rumyras-Cool-Links-24-06-16.html</id>
+    <published>2016-06-24T01:00:00+01:00</published>
+    <updated>2016-07-18T19:53:30+01:00</updated>
+    <author>
+      <name>Ruth John - @rumyra</name>
+    </author>
+    <content type="html">&lt;h3 id="i-know-everything-is-crazy-today"&gt;I know, everything is crazy today!&lt;/h3&gt;
+
+&lt;p&gt;Everyone in the UK woke up and thought they were in some parallel evil universe. Europe are feeling a little betrayed/saddened and well, the rest of the world is confused by how they can afford to buy pounds now which is weird for everyone.&lt;/p&gt;
+
+&lt;p&gt;So here are my cool links to give you a few minutes of web mindfulness, which now appear at just random intervals, sometimes weekly, sometimes bi-weekly, sometimes monthly. Mostly when cool links happen.&lt;/p&gt;
+
+&lt;p&gt;Top of the weird day list is the weird and wonderful (ok stretching it a little here, just wonderful will do) &lt;a href="https://philna.sh/"&gt;Phil Nash&lt;/a&gt; who wrote a &lt;a href="https://medium.com/@philnash/the-surprise-multipart-form-data-332846989913#.k0s1bwwv2"&gt;great article on a problem he had using body-parser with the formData object&lt;/a&gt;. Not only because of the subject matter and it makes a good read, but really because he openly and honestly &lt;em&gt;shared a problem he had&lt;/em&gt; which I find a lot of us would be nervous in doing.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;We all feel a bit imposter syndrome at times and so when we do this problem solving thing that programming ultimately entails, we feel that sense of relief that we fixed it and we're good programmers and not to say anything and that we never had a problem in the first place and we're super cool. It's ok that sometimes we problem solve, or just skim read the docs or whatever. Let's share all the things and pat everyone on the back for it and it'll save loads of time in the future! Cool 😎&lt;/p&gt;
+
+&lt;p&gt;Google's &lt;a href="https://events.withgoogle.com/progressive-web-app-dev-summit/"&gt;Progressive Web App Summit&lt;/a&gt; happened! I wanted to give you a pick of the talks, but I was pretty much engrossed for the whole first day and I have the second to catch up on. it's cool tho, &lt;a href="https://www.youtube.com/watch?v=9Jef9IluQw0&amp;amp;list=PLNYkxOF6rcIAWWNR_Q6eLPhsyx6VvYjVb"&gt;all the talks are online&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href="http://trntxt.uk/"&gt;the most performant train times website ever that there was&lt;/a&gt;. That &lt;a href="https://twitter.com/danielthepope"&gt;Dan&lt;/a&gt; has thankfully made it for you. So screechingly fast it loads on 2G no problem. &lt;a href="https://www.youtube.com/watch?v=BSYIR5R3kAY&amp;amp;feature=youtu.be&amp;amp;a"&gt;Here he is giving a show and tell at JS Oxford&lt;/a&gt; about building it.&lt;/p&gt;
+
+&lt;h3 id="enough-already-wheres-the-moosique"&gt;Enough already, where's the moosique??&lt;/h3&gt;
+
+&lt;p&gt;Okay, okay! Do you use Atom editor? I don't, I tried it a while back and didn't find it as performant as Sublime. However &lt;a href="https://www.youtube.com/watch?v=sPUw_wJyOTA"&gt;there is this package that generates a synth tone every time you hit a key&lt;/a&gt;. I might install Atom, for like 5 minutes until it gets annoying.&lt;/p&gt;
+
+&lt;p&gt;What do you do with 180 custom circuit boards, 540 addressable LEDs and 150W of power. Well I don't need to say anymore, you can &lt;a href="https://www.youtube.com/watch?v=j2KwD5Is1Z8"&gt;just watch the video&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;MOAR SYNTHS. One day the cool links will just be an accumulative list I promise. &lt;a href="http://alexnisnevich.github.io/synthi-js/"&gt;Synthi-js&lt;/a&gt; allows you to upload samples, so that's cool.&lt;/p&gt;
+
+&lt;p&gt;It is a short and sweet one today, but I may have saved one of the coolest things til last. &lt;a href="http://timpietrusky.com/"&gt;Tim&lt;/a&gt; added some inspiration to &lt;a href="http://webvj.ninja/"&gt;our collective&lt;/a&gt; last week by &lt;a href="http://codepen.io/TimPietrusky/full/jrPRZR/"&gt;creating this little gem&lt;/a&gt;, so simple, complicated and yet so uber cool.&lt;/p&gt;
+
 </content>
   </entry>
 </feed>
