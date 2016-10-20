@@ -5,10 +5,96 @@
   <id>http://rumyrashead.com/</id>
   <link href="http://rumyrashead.com/"/>
   <link href="http://rumyrashead.com/feed.xml" rel="self"/>
-  <updated>2016-10-05T01:00:00+01:00</updated>
+  <updated>2016-10-20T01:00:00+01:00</updated>
   <author>
     <name>Ruth John - @rumyra</name>
   </author>
+  <entry>
+    <title>A Little Thing About Blends</title>
+    <link rel="alternate" href="http://rumyrashead.com/a-little-thing-about-blends.html"/>
+    <id>http://rumyrashead.com/a-little-thing-about-blends.html</id>
+    <published>2016-10-20T01:00:00+01:00</published>
+    <updated>2016-10-20T11:10:45+01:00</updated>
+    <author>
+      <name>Ruth John - @rumyra</name>
+    </author>
+    <content type="html">&lt;p&gt;I learnt a little thing whilst playing around with &lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode"&gt;CSS blend modes&lt;/a&gt; this morning which I thought I should share.&lt;/p&gt;
+
+&lt;p&gt;I was just making a little visual:&lt;/p&gt;
+
+&lt;figure class="media-feature"&gt;
+  &lt;img src="/media/visualPlain.jpg" /&gt;
+  &lt;figcaption&gt;Visual without blend modes&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;And I thought, wouldn't it be lovely to have some CSS blend modes to add some 🤗&lt;/p&gt;
+
+&lt;p&gt;So I wrote a little Sass @each to try them out. Firstly here's the HTML of one &lt;em&gt;flower&lt;/em&gt;, of which I have nine.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-html"&gt;&amp;lt;section&amp;gt;
+  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/section&amp;gt;  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A bit gumphy, but rotating and sizing and well yeh… Then the @each&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-css"&gt;@each $num, $blendMode in 
+  ( 1:overlay, 2:darken, 3:color-dodge, 4:color-burn, 5:hard-light, 6:difference, 7:hue, 8:saturation, 9:luminosity ) {
+  #ohFour #screen section:nth-of-type(#{$num}) i {
+    mix-blend-mode: $blendMode;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There are more modes than this, but I've only got 9 sections and we can subsitute.&lt;/p&gt;
+
+&lt;p&gt;Spot the obvious mistake. By putting the blend mode onto the &lt;code&gt;i&lt;/code&gt; element, we see no difference. As per the spec:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The mix-blend-mode CSS property describes how an element's content should blend with the content of the element's direct parent and the element's background.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So let's back up and put it on the &lt;code&gt;section&lt;/code&gt;. Phew, there we go that's better.&lt;/p&gt;
+
+&lt;figure class="media-feature"&gt;
+  &lt;img src="/media/visualFirstBlend.jpg" /&gt;
+  &lt;figcaption&gt;Visual with first blend modes&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id="slow-rendering-and-fps-monitor"&gt;Slow rendering and FPS Monitor&lt;/h2&gt;
+
+&lt;p&gt;Now we could have put the blend mode on the &lt;code&gt;div&lt;/code&gt; elements. However the performance changes dramtically.&lt;/p&gt;
+
+&lt;p&gt;What with the audio analysis, amount of DOM elements and animation &lt;em&gt;with&lt;/em&gt; these blend modes is pretty trying in Chrome. I'm getting about 5fps when on the &lt;code&gt;div&lt;/code&gt;. Whereas on the &lt;code&gt;section&lt;/code&gt; I run at about 15fps. Not amazing, but I wonder who would notice in a club.&lt;/p&gt;
+
+&lt;p&gt;If you want to check out the FPS monitor in Chrome Dev Tools, just open them, click on the menu at the top right (three vertical dots), choose &lt;em&gt;'More tools'&lt;/em&gt; -&amp;gt; &lt;em&gt;'Rendering settings'&lt;/em&gt; and check &lt;em&gt;'FPS Meter'&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id="different-blend-modes"&gt;Different Blend Modes&lt;/h2&gt;
+
+&lt;p&gt;Yeh I know you see it too. We've lost the little &lt;em&gt;flowers&lt;/em&gt; in the centre. Some blend modes don't like being blended against black. Let's change that @each up a bit!&lt;/p&gt;
+
+&lt;figure class="media-feature"&gt;
+  &lt;img src="/media/visualSecBlend.jpg" /&gt;
+  &lt;figcaption&gt;Visual with second blend modes&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I'm gonna be having some fun with CSS Blend Modes! Chroma key on video anyone?&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>A Year On...</title>
     <link rel="alternate" href="http://rumyrashead.com/a-year-on.html"/>
@@ -168,43 +254,6 @@
 &lt;p&gt;It is still mine however, and on top of this realising the course of my own career is important and having some space to do that at this point is needed. It’s been nearly 15 years, this is a long time. Before I got sick I was considering leaving the industry altogether due to a variety of different reasons, (something I shall write about when I have the strength), but this past year reignited my passion and there’s so many things I want to learn and even more things I want to build. I’m hoping this will give me the time.&lt;/p&gt;
 
 &lt;p&gt;I will be available for consultancy, speaking, writing and dev/design work (although the next few months are already getting busy!). My first project? Well I have two, because working on one thing at a time is sensible: A digital snowflake (more about this later) and my portfolio of course - keep a look out, I started the build today :D&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>✨ Rumyra's Cool Links! ✨</title>
-    <link rel="alternate" href="http://rumyrashead.com/Rumyras-Cool-Links-24-06-16.html"/>
-    <id>http://rumyrashead.com/Rumyras-Cool-Links-24-06-16.html</id>
-    <published>2016-06-24T01:00:00+01:00</published>
-    <updated>2016-07-18T19:53:30+01:00</updated>
-    <author>
-      <name>Ruth John - @rumyra</name>
-    </author>
-    <content type="html">&lt;h3 id="i-know-everything-is-crazy-today"&gt;I know, everything is crazy today!&lt;/h3&gt;
-
-&lt;p&gt;Everyone in the UK woke up and thought they were in some parallel evil universe. Europe are feeling a little betrayed/saddened and well, the rest of the world is confused by how they can afford to buy pounds now which is weird for everyone.&lt;/p&gt;
-
-&lt;p&gt;So here are my cool links to give you a few minutes of web mindfulness, which now appear at just random intervals, sometimes weekly, sometimes bi-weekly, sometimes monthly. Mostly when cool links happen.&lt;/p&gt;
-
-&lt;p&gt;Top of the weird day list is the weird and wonderful (ok stretching it a little here, just wonderful will do) &lt;a href="https://philna.sh/"&gt;Phil Nash&lt;/a&gt; who wrote a &lt;a href="https://medium.com/@philnash/the-surprise-multipart-form-data-332846989913#.k0s1bwwv2"&gt;great article on a problem he had using body-parser with the formData object&lt;/a&gt;. Not only because of the subject matter and it makes a good read, but really because he openly and honestly &lt;em&gt;shared a problem he had&lt;/em&gt; which I find a lot of us would be nervous in doing.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;We all feel a bit imposter syndrome at times and so when we do this problem solving thing that programming ultimately entails, we feel that sense of relief that we fixed it and we're good programmers and not to say anything and that we never had a problem in the first place and we're super cool. It's ok that sometimes we problem solve, or just skim read the docs or whatever. Let's share all the things and pat everyone on the back for it and it'll save loads of time in the future! Cool 😎&lt;/p&gt;
-
-&lt;p&gt;Google's &lt;a href="https://events.withgoogle.com/progressive-web-app-dev-summit/"&gt;Progressive Web App Summit&lt;/a&gt; happened! I wanted to give you a pick of the talks, but I was pretty much engrossed for the whole first day and I have the second to catch up on. it's cool tho, &lt;a href="https://www.youtube.com/watch?v=9Jef9IluQw0&amp;amp;list=PLNYkxOF6rcIAWWNR_Q6eLPhsyx6VvYjVb"&gt;all the talks are online&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Check out &lt;a href="http://trntxt.uk/"&gt;the most performant train times website ever that there was&lt;/a&gt;. That &lt;a href="https://twitter.com/danielthepope"&gt;Dan&lt;/a&gt; has thankfully made it for you. So screechingly fast it loads on 2G no problem. &lt;a href="https://www.youtube.com/watch?v=BSYIR5R3kAY&amp;amp;feature=youtu.be&amp;amp;a"&gt;Here he is giving a show and tell at JS Oxford&lt;/a&gt; about building it.&lt;/p&gt;
-
-&lt;h3 id="enough-already-wheres-the-moosique"&gt;Enough already, where's the moosique??&lt;/h3&gt;
-
-&lt;p&gt;Okay, okay! Do you use Atom editor? I don't, I tried it a while back and didn't find it as performant as Sublime. However &lt;a href="https://www.youtube.com/watch?v=sPUw_wJyOTA"&gt;there is this package that generates a synth tone every time you hit a key&lt;/a&gt;. I might install Atom, for like 5 minutes until it gets annoying.&lt;/p&gt;
-
-&lt;p&gt;What do you do with 180 custom circuit boards, 540 addressable LEDs and 150W of power. Well I don't need to say anymore, you can &lt;a href="https://www.youtube.com/watch?v=j2KwD5Is1Z8"&gt;just watch the video&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;MOAR SYNTHS. One day the cool links will just be an accumulative list I promise. &lt;a href="http://alexnisnevich.github.io/synthi-js/"&gt;Synthi-js&lt;/a&gt; allows you to upload samples, so that's cool.&lt;/p&gt;
-
-&lt;p&gt;It is a short and sweet one today, but I may have saved one of the coolest things til last. &lt;a href="http://timpietrusky.com/"&gt;Tim&lt;/a&gt; added some inspiration to &lt;a href="http://webvj.ninja/"&gt;our collective&lt;/a&gt; last week by &lt;a href="http://codepen.io/TimPietrusky/full/jrPRZR/"&gt;creating this little gem&lt;/a&gt;, so simple, complicated and yet so uber cool.&lt;/p&gt;
-
 </content>
   </entry>
 </feed>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <!--char set (lang above)-->
+  <meta charset="utf-8">
+
+  <!--device/browser shizzle-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--meta content-->
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+  <meta name="author" content="Ruth John (@rumyra)">
+  <meta name="dcterms.rightsHolder" content="Ruth John for Rumyra Ltd, United Kingdom, 2015">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <title>A Little Thing About Blends</title>
+
+  <!--Stylesheets (include as necessary)-->
+  <!--[if lte IE 9]>
+  <link rel="stylesheet" href="ie.css" type="text/css" media="screen"/>
+  <![endif]-->
+
+  <link href="/assets/stylesheets/application.css" rel="stylesheet" type="text/css" /><link href="/assets/stylesheets/all.css" rel="stylesheet" type="text/css" /><link href="/assets/stylesheets/pygments.css" rel="stylesheet" type="text/css" />
+  <script src="/assets/javascripts/all.js" type="text/javascript"></script>
+</head>
+
+  <body class="a-little-thing-about-blends"><div>
+
+    <header role="main">
+      
+      <h1><a href="/" rel="internal" title="Link back to the home of Rumyra's Head">Rumyra's Head</a></h1>
+
+      <nav role="main">
+        <a href="/category/brain-dribble.html">Brain Dribble</a>
+        <a href="/category/craft-code.html">Craft &amp; Code</a>
+        <!--<a href="http://rumyrashead.com/category/challenge-rumyra/">Challenge Rumyra</a>-->
+        <a href="/category/speak-write-mentor.html">Speak, Write, Mentor</a>
+        <a href="mailto:sayhello@rumyrashead.com">Say Hello</a>
+      </nav>
+    </header>
+
+    <section role="main">
+      <aside role="banner">
+      <!-- <form role="search" method="get" action="http://rumyrashead.com/">
+        <fieldset><legend>Search Rumyra's Head</legend>
+          <div class="form-field">
+            <label for="s">Search term</label>
+            <input type="text" placeholder="Search term" name="s" id="s">
+          </div>
+          <input type="submit" value="Search">
+        </fieldset>
+      </form> -->
+
+      <nav role="complementary" class="nav-social">
+        <a href="http://www.twitter.com/rumyra" rel="external" class="icon-make i-twitter">Follow @rumyra on Twitter</a>
+        <a href="http://www.github.com/rumyra" rel="external" class="icon-make i-github">Rumyra on Github</a>
+        <a href="mailto:sayhello@rumyrashead.com" class="icon-make i-email">Say Hello</a>
+        <!--<a href="http://codepen.io/Rumyra" rel="external">Rumyra on Codepen</a>-->
+        <a href="/feed.xml" class="icon-make i-rss">Get the RSS feed</a>
+      </nav>
+    </aside>
+
+    <article class="post craft-code">
+  <header>
+     <h2>A Little Thing About Blends</h2>
+     <time datetime="2016-10-20">October 20, 2016</time>
+  </header>
+  <div class="post-content">
+    <p>I learnt a little thing whilst playing around with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode">CSS blend modes</a> this morning which I thought I should share.</p>
+
+<p>I was just making a little visual:</p>
+
+<figure class="media-feature">
+  <img src="/media/visualPlain.jpg" />
+  <figcaption>Visual without blend modes</figcaption>
+</figure>
+
+<p>And I thought, wouldn't it be lovely to have some CSS blend modes to add some 🤗</p>
+
+<p>So I wrote a little Sass @each to try them out. Firstly here's the HTML of one <em>flower</em>, of which I have nine.</p>
+
+<pre><code class="language-html">&lt;section&gt;
+  &lt;div&gt;&lt;i&gt;&lt;/i&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;i&gt;&lt;/i&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;i&gt;&lt;/i&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;i&gt;&lt;/i&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;i&gt;&lt;/i&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;i&gt;&lt;/i&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;i&gt;&lt;/i&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;i&gt;&lt;/i&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;i&gt;&lt;/i&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;i&gt;&lt;/i&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;i&gt;&lt;/i&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;i&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;/section&gt;  
+</code></pre>
+
+<p>A bit gumphy, but rotating and sizing and well yeh… Then the @each</p>
+
+<pre><code class="language-css">@each $num, $blendMode in 
+  ( 1:overlay, 2:darken, 3:color-dodge, 4:color-burn, 5:hard-light, 6:difference, 7:hue, 8:saturation, 9:luminosity ) {
+  #ohFour #screen section:nth-of-type(#{$num}) i {
+    mix-blend-mode: $blendMode;
+  }
+}
+</code></pre>
+
+<p>There are more modes than this, but I've only got 9 sections and we can subsitute.</p>
+
+<p>Spot the obvious mistake. By putting the blend mode onto the <code>i</code> element, we see no difference. As per the spec:</p>
+
+<blockquote>
+  <p>The mix-blend-mode CSS property describes how an element's content should blend with the content of the element's direct parent and the element's background.</p>
+</blockquote>
+
+<p>So let's back up and put it on the <code>section</code>. Phew, there we go that's better.</p>
+
+<figure class="media-feature">
+  <img src="/media/visualFirstBlend.jpg" />
+  <figcaption>Visual with first blend modes</figcaption>
+</figure>
+
+<hr />
+
+<h2 id="slow-rendering-and-fps-monitor">Slow rendering and FPS Monitor</h2>
+
+<p>Now we could have put the blend mode on the <code>div</code> elements. However the performance changes dramtically.</p>
+
+<p>What with the audio analysis, amount of DOM elements and animation <em>with</em> these blend modes is pretty trying in Chrome. I'm getting about 5fps when on the <code>div</code>. Whereas on the <code>section</code> I run at about 15fps. Not amazing, but I wonder who would notice in a club.</p>
+
+<p>If you want to check out the FPS monitor in Chrome Dev Tools, just open them, click on the menu at the top right (three vertical dots), choose <em>'More tools'</em> -&gt; <em>'Rendering settings'</em> and check <em>'FPS Meter'</em>.</p>
+
+<h2 id="different-blend-modes">Different Blend Modes</h2>
+
+<p>Yeh I know you see it too. We've lost the little <em>flowers</em> in the centre. Some blend modes don't like being blended against black. Let's change that @each up a bit!</p>
+
+<figure class="media-feature">
+  <img src="/media/visualSecBlend.jpg" />
+  <figcaption>Visual with second blend modes</figcaption>
+</figure>
+
+<p>I'm gonna be having some fun with CSS Blend Modes! Chroma key on video anyone?</p>
+
+
+  </div>
+  <div class="post-tags">
+    <p>Tags:
+       <!-- <li><a href="/blog/tags/css/">css</a></li> -->
+       <span>css,&nbsp;</span>
+       <!-- <li><a href="/blog/tags/blend-modes/">blend-modes</a></li> -->
+       <span>blend-modes,&nbsp;</span>
+    </p>
+  </div>
+</article>
+
+
+    </section>
+
+      <footer>
+      <ul class="nav-social">
+        <li><a href="http://www.twitter.com/rumyra" rel="external" class="icon-before i-twitter">Follow @rumyra on Twitter</a></li>
+        <li><a href="http://lanyrd.com/profile/rumyra/" rel="external" class="icon-before i-tags">Rumyra on Lanyrd</a></li>
+        <li><a href="http://www.github.com/rumyra" rel="external" class="icon-before i-github">Rumyra on Github</a></li>
+        <li><a href="http://codepen.io/Rumyra" rel="external" class="icon-before i-codepen">Rumyra on Codepen</a></li>
+        <li><a href="/feed.xml" class="icon-before i-rss">Get the RSS feed</a></li>
+        <li><span class="icon-before i-mobile">Say hello by text on +441287 244048</span></li>
+      </ul>
+      <p><span>© Rumyra's Head 2015</span><!--<a href="http://www.ruthjohn.com" rel="external">-->Designed by Ruth John</p>
+      
+    </footer>
+  </div>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-7652340-4', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</body>
+</html>
