@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://rumyrashead.com/codevember-number-one.html"/>
     <id>http://rumyrashead.com/codevember-number-one.html</id>
     <published>2016-11-01T00:00:00+00:00</published>
-    <updated>2016-11-01T21:54:56+00:00</updated>
+    <updated>2016-11-01T21:56:29+00:00</updated>
     <author>
       <name>Ruth John - @rumyra</name>
     </author>
@@ -26,6 +26,8 @@
 &lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
 
 &lt;p&gt;We’re going to start vanilla, from the very basics, just using the very minimal we can from the web audio API and some DOM elements, then slowly I’ll start trying some different techniques. By the end we would have covered audio analysing, new css techniques, d3.js which I find is so suited to audio-vis, bringing in some svgs and hopefully some canvas too.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;And along with each technique I’ll be taking influence from somewhere different, be that an artist, a book from the &lt;a href="https://www.instagram.com/p/BLWXiGdDDmo/?taken-by=rumyra"&gt;stepshelf&lt;/a&gt; or some tumblr somewhere.&lt;/p&gt;
 
