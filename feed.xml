@@ -5,16 +5,45 @@
   <id>http://rumyrashead.com/</id>
   <link href="http://rumyrashead.com/"/>
   <link href="http://rumyrashead.com/feed.xml" rel="self"/>
-  <updated>2016-11-01T00:00:00+00:00</updated>
+  <updated>2016-11-02T00:00:00+00:00</updated>
   <author>
     <name>Ruth John - @rumyra</name>
   </author>
+  <entry>
+    <title>Codevember Number Two</title>
+    <link rel="alternate" href="http://rumyrashead.com/codevember-number-two.html"/>
+    <id>http://rumyrashead.com/codevember-number-two.html</id>
+    <published>2016-11-02T00:00:00+00:00</published>
+    <updated>2016-11-02T14:10:19+00:00</updated>
+    <author>
+      <name>Ruth John - @rumyra</name>
+    </author>
+    <content type="html">&lt;p&gt;I’ve gone straight for something a bit weird for day two. But we’re not doing too much different from day one. Just adding a different background gradient to the divs, displaying them with a little flex magic and again changing the widths.&lt;/p&gt;
+
+&lt;p&gt;Yes these vis are simple, but I think it's good we're starting simple, stay with me and we'll see where we end!&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src="/media/bridgetSquares.jpg" /&gt;
+  &lt;figcaption&gt;Bridget Riley : Movement in Squares&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s pertinent I didn’t change much, all these little codevembers are all part of a bigger remit to add to my browser powered VJ software: Vizra. By writing a different one each day I can begin to see what functionality to include in the software. For instance a ‘live coding’ editor would be great so as I’m running the software I can change the previous days to todays whilst I’m performing. That would be a cool feature.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=B-y-lS0YqF0"&gt;Mos Def - Ms Fat Booty&lt;/a&gt; for this one&lt;/p&gt;
+
+&lt;p data-height="300" data-theme-id="1345" data-slug-hash="PbYGNB" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #2" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/PbYGNB/"&gt;Codevember AudioVis #2&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
+
+</content>
+  </entry>
   <entry>
     <title>Codevember Number One</title>
     <link rel="alternate" href="http://rumyrashead.com/codevember-number-one.html"/>
     <id>http://rumyrashead.com/codevember-number-one.html</id>
     <published>2016-11-01T00:00:00+00:00</published>
-    <updated>2016-11-01T21:56:29+00:00</updated>
+    <updated>2016-11-01T22:03:56+00:00</updated>
     <author>
       <name>Ruth John - @rumyra</name>
     </author>
@@ -39,7 +68,7 @@
   &lt;li&gt;This is a learning experience for me too, so things may stay quite basic. The code will probably &lt;em&gt;be&lt;/em&gt; basic, however this does mean it won’t be too complicated for entry level coders.&lt;/li&gt;
   &lt;li&gt;I’ll be analysing audio from the microphone, which means I’ll be using the &lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Streams_API"&gt;Media Streams API&lt;/a&gt;, which only works over https, you’ll need to view the pens over https://codepen.io&lt;/li&gt;
   &lt;li&gt;Things work best in Canary so I’ve noticed, please don’t expect pens to work cross browser. The main end game for me is to integrate them into my VJ software, which I run in a sandboxed environment (my machine, my choice of browser) sux I know!&lt;/li&gt;
-  &lt;li&gt;I’ll be cross posting all these articles to both my &lt;a href=""&gt;Codepen Blog&lt;/a&gt; and &lt;a href="http://rumyrashead.com/"&gt;my personal blog&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;I’ll be cross posting all these articles to both my &lt;a href="https://codepen.io/Rumyra/posts/published/"&gt;Codepen Blog&lt;/a&gt; and &lt;a href="http://rumyrashead.com/"&gt;my personal blog&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;There's a high chance I won't make every single day, but I will try 🙃&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -377,41 +406,6 @@ navigator.mediaDevices.getUserMedia({ audio: true, video: false })
 &lt;p&gt;———————————————&lt;/p&gt;
 
 &lt;p&gt;All Font Awesome licensing etc… still applies. Info etc… is in the origin &lt;a href="https://github.com/FortAwesome/Font-Awesome"&gt;readme here&lt;/a&gt;&lt;/p&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title>✨ Rumyra's Cool Links! ✨</title>
-    <link rel="alternate" href="http://rumyrashead.com/Rumyras-Cool-Links-20-07-16.html"/>
-    <id>http://rumyrashead.com/Rumyras-Cool-Links-20-07-16.html</id>
-    <published>2016-07-20T01:00:00+01:00</published>
-    <updated>2016-07-21T10:04:56+01:00</updated>
-    <author>
-      <name>Ruth John - @rumyra</name>
-    </author>
-    <content type="html">&lt;p&gt;Phew, isn’t it warm 🌞🔥☀️*&lt;/p&gt;
-
-&lt;p&gt;Well then, I guess it’s time for another instalment of ‘Rumyra’s Cool Links’ (the time will come when this has it’s own space).&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*For those viewing outside the UK it was 35 degrees yesterday and the country melted, we are currently trying to reanimate ourselves.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Easily and undoubtably top of my cool links this time is &lt;a href="https://codepen.io/jakealbaugh/full/qNrZyw"&gt;Jake Albaugh’s arpeggiator&lt;/a&gt;. I just can &lt;em&gt;not&lt;/em&gt; get enough of this. What an inspired, solid, clever and useful piece of engineering. It basically sums up everything ever about ‘why do we have the audio api again?’.&lt;/p&gt;
-
-&lt;p&gt;This. That is all. Thanks &lt;a href="https://twitter.com/jake_albaugh"&gt;Mr. Albaugh&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;There is also &lt;a href="http://superlooper.universlabs.co.uk/"&gt;Superlooper&lt;/a&gt; from &lt;a href="http://www.universlabs.co.uk/"&gt;Univers Labs&lt;/a&gt; which not only contains beautiful loops but also visuals which are just simple but inspirational. (Very close to my own doodles around A/V so they’ll be more like this I’m sure).&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;If you want a hand with your audio visual creations &lt;a href="https://twitter.com/likethemammal"&gt;Chris Dolphin&lt;/a&gt; has created &lt;a href="https://github.com/likethemammal/visualizer-micro"&gt;visualizer-micro.js&lt;/a&gt; a teeny library wrapping just the analysis parts of the audio API, inspired by the methods from that ol’ dancer.js (man that feels like a decade ago right?).&lt;/p&gt;
-
-&lt;p&gt;Other things that are cool include &lt;a href="http://bigstory.ap.org/article/ab73d19c160c4c509dc6b9decfec3c0f/south-korea-uses-technology-help-pregnant-women-get-seats"&gt;a great use of beacon technology to help pregnant women&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=hKRLcQ2Y8kA"&gt;This talk I saw at JS Oxford last month&lt;/a&gt; by &lt;a href="https://twitter.com/ashok_menon"&gt;Ashok Menon&lt;/a&gt; literally writing a language &lt;em&gt;with&lt;/em&gt; a language, or something, it was all like 😳 Very cool tho.&lt;/p&gt;
-
-&lt;p&gt;I know others have linked to it, but the tab’s been open so long I couldn’t not include it. This is a &lt;a href="http://a.singlediv.com/"&gt;great showcase of what you can do with just one div and a love affair with CSS&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;And if you’re still hot after all that go and buy yourself a cool print, I saw this one and thought it was cool: &lt;a href="http://www.wearedorothy.com/shop/inside-information-minimoog"&gt;The insides of a Minimoog&lt;/a&gt; featuring all your fav artists.&lt;/p&gt;
 
 </content>
   </entry>
