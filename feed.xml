@@ -5,10 +5,38 @@
   <id>http://rumyrashead.com/</id>
   <link href="http://rumyrashead.com/"/>
   <link href="http://rumyrashead.com/feed.xml" rel="self"/>
-  <updated>2016-11-02T00:00:00+00:00</updated>
+  <updated>2016-11-03T00:00:00+00:00</updated>
   <author>
     <name>Ruth John - @rumyra</name>
   </author>
+  <entry>
+    <title>Codevember Number Three</title>
+    <link rel="alternate" href="http://rumyrashead.com/codevember-number-three.html"/>
+    <id>http://rumyrashead.com/codevember-number-three.html</id>
+    <published>2016-11-03T00:00:00+00:00</published>
+    <updated>2016-11-03T17:48:22+00:00</updated>
+    <author>
+      <name>Ruth John - @rumyra</name>
+    </author>
+    <content type="html">&lt;p&gt;This is my inspiration for today’s pen: Bridget Riley's Dilated Centres.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src="/media/bridgetCentres.jpg" /&gt;
+  &lt;figcaption&gt;Bridget Riley : Dilated Centers&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You may not be able to tell but the the circles aren’t quite concentric. The lovely &lt;a href="http://www.lottejackson.com/learning/nth-child-cicada-principle"&gt;Lotte Jackson wrote a post&lt;/a&gt; just over a month ago, about cicada, which reminded me about this piece. It used prime numbers and border radius’ to create a great ‘blobby’ effect on some images she was displaying on a website. It was a totally awesome technique, and I really wanted to try it out. What a great pen to do so with.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Not much of the code from yesterday has changed at all apart from the DOM elements and a hec of a lot more CSS. Here I’m changing the border radius when I am looping over the &lt;code&gt;i&lt;/code&gt;’s in the &lt;code&gt;animateStuff()&lt;/code&gt; function. We have more elements this time so it feels a bit better.&lt;/p&gt;
+
+&lt;p data-height="300" data-theme-id="1345" data-slug-hash="BQayWP" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #3" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/BQayWP/"&gt;Codevember AudioVis #3&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;I’d recommend the &lt;a href="https://www.youtube.com/watch?v=1gbHItHuZ0E"&gt;opening credits to Luke Cage&lt;/a&gt; for this one.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Codevember Number Two</title>
     <link rel="alternate" href="http://rumyrashead.com/codevember-number-two.html"/>
@@ -372,40 +400,6 @@ navigator.mediaDevices.getUserMedia({ audio: true, video: false })
 &lt;p&gt;Not cool enough for you yet?  Check out &lt;a href="http://executabledreams.net/B/emojiwin"&gt;this insane emoji fest&lt;/a&gt; - solitare style graphics on canvas - also supports multi touch events! Yup, I think it's actually too cool. 🎶💥🎉😎💙&lt;/p&gt;
 
 &lt;p&gt;Oh and it's my birthday in a month. Yes, I know you're thinking: 'What the 😳 can I get Ruth? She's already got like 5 MIDI controllers…' Well you can totally &lt;a href="https://www.paypal.me/rumyra"&gt;donate to the Holtzmanns glasses fund&lt;/a&gt;. Yes I super think having a &lt;a href="http://www.liveforfilm.com/2016/08/04/ghostbusters-you-can-buy-holtzmanns-glasses/"&gt;pair of these&lt;/a&gt; from the recent Ghostbusters would be super cool to VJ in 😎-&amp;gt;😆 Hell I'd even wear them when writing these cool links posts, and that would easily make them ten times cooler!&lt;/p&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title>Font Awesome SVGs</title>
-    <link rel="alternate" href="http://rumyrashead.com/Font-Awesome-SVGs.html"/>
-    <id>http://rumyrashead.com/Font-Awesome-SVGs.html</id>
-    <published>2016-07-25T01:00:00+01:00</published>
-    <updated>2016-07-25T14:12:42+01:00</updated>
-    <author>
-      <name>Ruth John - @rumyra</name>
-    </author>
-    <content type="html">&lt;p&gt;Doing a lot of prototyping in the past, having &lt;a href="http://fontawesome.io/"&gt;Font Awesome&lt;/a&gt; as part of my front end starter files was always really handy for quickly adding icons when I was building a UI.&lt;/p&gt;
-
-&lt;p&gt;Nowadays we are more aware that using a font to represent icons isn’t necessarily the most accessible thing to do for everyone, &lt;a href="https://www.youtube.com/watch?v=9xXBYcWgCHA"&gt;as Serend explains here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;So as I’m whipping up a website right at this moment I thought it a good opportunity to take the first steps to swap out the font for svgs. So…&lt;/p&gt;
-
-&lt;h5 id="heres-a-repo-with-font-awesome-icons-as-svgshttpsgithubcomrumyrafont-awesome-svgs"&gt;&lt;a href="https://github.com/Rumyra/Font-Awesome-SVGs"&gt;Here’s a repo with font awesome icons as svgs&lt;/a&gt;&lt;/h5&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;I forked the Font Awesome repo so I can keep it as up to date with the original as I can.&lt;/li&gt;
-  &lt;li&gt;I added an SVG folder to add all the generated glyphs to.&lt;/li&gt;
-  &lt;li&gt;I used &lt;a href="https://www.npmjs.com/package/font-blast"&gt;font blast&lt;/a&gt; to generate SVGs from a font, a la &lt;a href="https://sarasoueidan.com/blog/icon-fonts-to-svg/"&gt;Sara Soueidan mentions in her blog post here&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;To include the SVG’s I used the CSS Inline SVG Sprites method, &lt;a href="https://24ways.org/2014/an-overview-of-svg-sprite-creation-techniques/"&gt;again described by Sara here&lt;/a&gt;. It seemed the easiest to integrate with the set up I already had, as I was using classes to add icons to elements.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The most long winded part was making sure I had all the correct icons - I think a good addition to this repo would be a generated spite sheet with stylesheet companion and easy reference classes. I’ve opened an issue 😎&lt;/p&gt;
-
-&lt;p&gt;———————————————&lt;/p&gt;
-
-&lt;p&gt;All Font Awesome licensing etc… still applies. Info etc… is in the origin &lt;a href="https://github.com/FortAwesome/Font-Awesome"&gt;readme here&lt;/a&gt;&lt;/p&gt;
 
 </content>
   </entry>
