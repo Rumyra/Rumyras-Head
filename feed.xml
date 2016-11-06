@@ -5,10 +5,38 @@
   <id>http://rumyrashead.com/</id>
   <link href="http://rumyrashead.com/"/>
   <link href="http://rumyrashead.com/feed.xml" rel="self"/>
-  <updated>2016-11-05T00:00:00+00:00</updated>
+  <updated>2016-11-06T00:00:00+00:00</updated>
   <author>
     <name>Ruth John - @rumyra</name>
   </author>
+  <entry>
+    <title>Codevember Number Five</title>
+    <link rel="alternate" href="http://rumyrashead.com/codevember-number-five.html"/>
+    <id>http://rumyrashead.com/codevember-number-five.html</id>
+    <published>2016-11-06T00:00:00+00:00</published>
+    <updated>2016-11-06T18:27:50+00:00</updated>
+    <author>
+      <name>Ruth John - @rumyra</name>
+    </author>
+    <content type="html">&lt;p&gt;Today sees the last in our Bridget Riley series. We'll move on to something different tomorrow…&lt;/p&gt;
+
+&lt;p&gt;Today is Bridget Riley's Static 4:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src="/media/bridgetStatic.jpg" /&gt;
+  &lt;figcaption&gt;Bridget Riley : Static 4&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;This harks back to day three really, but it’s just a nice easy one. Albeit getting the circles to grow from the centre. Again nothing too special here, but it’ll look super good laid over a video I’m sure :)&lt;/p&gt;
+
+&lt;p data-height="300" data-theme-id="1345" data-slug-hash="yVypOR" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #5" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/yVypOR/"&gt;Codevember AudioVis #5&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;Let’s end on a classic: &lt;a href="https://www.youtube.com/watch?v=KYSPfTMyJ2s"&gt;A to the K - Cyprus Hill&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Codevember Number Four</title>
     <link rel="alternate" href="http://rumyrashead.com/codevember-number-four.html"/>
@@ -368,47 +396,6 @@ navigator.mediaDevices.getUserMedia({ audio: true, video: false })
 &lt;/figure&gt;
 
 &lt;p&gt;I'm gonna be having some fun with CSS Blend Modes! Chroma key on video anyone?&lt;/p&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title>A Year On...</title>
-    <link rel="alternate" href="http://rumyrashead.com/a-year-on.html"/>
-    <id>http://rumyrashead.com/a-year-on.html</id>
-    <published>2016-10-05T01:00:00+01:00</published>
-    <updated>2016-10-05T13:38:37+01:00</updated>
-    <author>
-      <name>Ruth John - @rumyra</name>
-    </author>
-    <content type="html">&lt;p&gt;It’s been a year since I wrote for Geek Mental Health week about my (then) recent experiences with depression. It’s both strange and fitting that it’s a year on.&lt;/p&gt;
-
-&lt;h3 id="its-been-one-hell-of-a-year"&gt;It’s been one hell of a year.&lt;/h3&gt;
-
-&lt;p&gt;Re-reading the article now it seems such a sensible read. I really felt like I was on the road to recovery in last October, but the road was longer than I expected, and I’m pretty sure there’s still a long way to go.&lt;/p&gt;
-
-&lt;p&gt;I’d had nearly a couple of months off over the summer and was integrated back into work by the time I wrote that article. Looking back now of course that was not enough time, it was rushed. Not just because you start to feel better and so think you &lt;em&gt;are&lt;/em&gt; better, but people around you are urging you to get better as well and that’s because they want you to be better. Unfortunately it’s not that simple. I was still recovering from quite a big shock.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;The only way I can describe the way I was feeling is that all my skin had been worn away by things that had happened, sanded down, and I couldn’t take any more things wearing it away. I needed recovery to build it all back up again and that was going to take a lot of time.&lt;/p&gt;
-
-&lt;h3 id="i-was-better-but-i-wasnt-well"&gt;I was better, but I wasn’t well.&lt;/h3&gt;
-
-&lt;p&gt;With the support of councilling, I had made some decisions about the changes I wanted to make in my life, some of which were driving the unhappiness, some I hoped would help me move on. Buying a house and leaving my job where two of them. House buying happened over new year and it was very stressful, a few other things were going on as well, normal everyday things, physical health issues arose, some personal relationship things. Things that are normally quite capable, but on top of everything else, by the time the house went through, everything had come crashing back down around me.&lt;/p&gt;
-
-&lt;p&gt;In February I took yet another month off work.&lt;/p&gt;
-
-&lt;p&gt;I still hadn’t stopped seeing my councillor at this point. This ended up being one of the most beneficial things in terms of my recovery, and there were definitely times I felt it wasn’t right or I didn’t need to see her anymore, but I stuck with it and I am glad. Again I was integrated back into work, but this time I could hand in my notice. This was the biggest drain on my well being and leaving has irrefutably improved my health.&lt;/p&gt;
-
-&lt;h3 id="slowly-but-surely-i-started-to-see-a-change"&gt;Slowly but surely I started to see a change.&lt;/h3&gt;
-
-&lt;p&gt;I started to stand on my own two feet again and move my life out of this bleak emptiness that engulfed it.&lt;/p&gt;
-
-&lt;p&gt;As with these things days are still a struggle. And it comes and goes in waves. But I was with my mum the other day, who said I was noticeably different, I didn’t look so withdrawn and colourless. I don’t feel so colourless anymore, I don’t feel like a shell, I feel like there’s something inside me again. I hold on to this.&lt;/p&gt;
-
-&lt;p&gt;Last year was about being unwell and I stand by my last article, if you feel unwell please seek help, because this year, for me, this year has been about getting better. I hope now I can focus on getting well.&lt;/p&gt;
-
-&lt;p&gt;But, don’t try to rush getting better, I know it’s an easy thing to say. I’ve never wanted my mental health to define me, even before the crash of last year, so I never give myself a break. This isn’t healthy, when you’re sick, you need to recover.&lt;/p&gt;
 
 </content>
   </entry>
