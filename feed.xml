@@ -5,16 +5,73 @@
   <id>http://rumyrashead.com/</id>
   <link href="http://rumyrashead.com/"/>
   <link href="http://rumyrashead.com/feed.xml" rel="self"/>
-  <updated>2016-11-06T00:00:00+00:00</updated>
+  <updated>2016-11-09T16:00:00-08:00</updated>
   <author>
     <name>Ruth John - @rumyra</name>
   </author>
   <entry>
+    <title>Codevember Number Eight</title>
+    <link rel="alternate" href="http://rumyrashead.com/codevember-number-eight.html"/>
+    <id>http://rumyrashead.com/codevember-number-eight.html</id>
+    <published>2016-11-09T16:00:00-08:00</published>
+    <updated>2016-11-10T15:22:29-08:00</updated>
+    <author>
+      <name>Ruth John - @rumyra</name>
+    </author>
+    <content type="html">&lt;h3 id="part-two-random-cool-new-features"&gt;Part Two: Random Cool New Features&lt;/h3&gt;
+
+&lt;p&gt;So this next section I did ponder for a while. I could take you straight on to a much better way of creating visuals within the DOM, but before I do that I want to introduce some new features we have in simple CSS that can really help our visuals later down the track. Our inspiration for this set is a little tumblr called &lt;a href="http://intothecontinuum.tumblr.com/"&gt;Archery: Into the Continuum&lt;/a&gt;. Here I want to take inspiration from some of these random gifs, not exactly replicate them.&lt;/p&gt;
+
+&lt;p&gt;So first up, this gif:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src="http://67.media.tumblr.com/e829a18961367c45baf1c2dcbcea47a0/tumblr_mr6p8hVjSQ1qfjvexo2_r1_500.gif" /&gt;
+&lt;/figure&gt;
+
+&lt;h3 id="custom-properties"&gt;Custom Properties&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Or&lt;/em&gt; JavaScript all up in your CSS&lt;/p&gt;
+
+&lt;p&gt;And the much talked about CSS Custom properties. ✨💥💜 We can really use these to our advantage when doing audio vis work as we can reference them directly in our JavaScript and basically update our CSS in realtime.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Custom properties are declared at the start of your CSS with a &lt;code&gt;:root&lt;/code&gt; block and can be references throughout your CSS, much like (but not entirely) pre-processor variables. So instead of declaring properties that make sense as far as styling goes, I’m going to be changing them within my JavaScript, so it makes sense to name them something a little more explicit.&lt;/p&gt;
+
+&lt;p&gt;For this we’ll create a &lt;code&gt;—level&lt;/code&gt; property, and just grab one of the items of the &lt;code&gt;frequencyData&lt;/code&gt; array and pipe it in. This is where the magic happens:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-css"&gt;:root {
+  --level: 1;
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class="language-javascript"&gt;document.documentElement.style.setProperty('--level', frequencyData[10]/255);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This —level property will now update &lt;em&gt;*within out css*&lt;/em&gt;. Oh. My. Gawd. I know right… 😱&lt;/p&gt;
+
+&lt;p&gt;Magic!&lt;/p&gt;
+
+&lt;p&gt;So if we use it on the opacity for instance:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-css"&gt;i {
+  opacity: var(--level);
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Boom! Opacity of &lt;code&gt;i&lt;/code&gt; updated! In real time, in our CSS.&lt;/p&gt;
+
+&lt;p&gt;I know - all the wows!&lt;/p&gt;
+
+&lt;p data-height="300" data-theme-id="1345" data-slug-hash="yVeoJo" data-default-tab="html,result" data-user="Rumyra" data-embed-version="2" data-pen-title="yVeoJo" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/yVeoJo/"&gt;yVeoJo&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
+
+</content>
+  </entry>
+  <entry>
     <title>Codevember Number Five</title>
     <link rel="alternate" href="http://rumyrashead.com/codevember-number-five.html"/>
     <id>http://rumyrashead.com/codevember-number-five.html</id>
-    <published>2016-11-06T00:00:00+00:00</published>
-    <updated>2016-11-06T18:27:50+00:00</updated>
+    <published>2016-11-05T17:00:00-07:00</published>
+    <updated>2016-11-06T10:27:50-08:00</updated>
     <author>
       <name>Ruth John - @rumyra</name>
     </author>
@@ -41,8 +98,8 @@
     <title>Codevember Number Four</title>
     <link rel="alternate" href="http://rumyrashead.com/codevember-number-four.html"/>
     <id>http://rumyrashead.com/codevember-number-four.html</id>
-    <published>2016-11-05T00:00:00+00:00</published>
-    <updated>2016-11-06T00:45:52+00:00</updated>
+    <published>2016-11-04T17:00:00-07:00</published>
+    <updated>2016-11-05T17:45:52-07:00</updated>
     <author>
       <name>Ruth John - @rumyra</name>
     </author>
@@ -77,8 +134,8 @@
     <title>Codevember Number Three</title>
     <link rel="alternate" href="http://rumyrashead.com/codevember-number-three.html"/>
     <id>http://rumyrashead.com/codevember-number-three.html</id>
-    <published>2016-11-03T00:00:00+00:00</published>
-    <updated>2016-11-03T19:51:05+00:00</updated>
+    <published>2016-11-02T17:00:00-07:00</published>
+    <updated>2016-11-03T12:51:05-07:00</updated>
     <author>
       <name>Ruth John - @rumyra</name>
     </author>
@@ -105,8 +162,8 @@
     <title>Codevember Number Two</title>
     <link rel="alternate" href="http://rumyrashead.com/codevember-number-two.html"/>
     <id>http://rumyrashead.com/codevember-number-two.html</id>
-    <published>2016-11-02T00:00:00+00:00</published>
-    <updated>2016-11-02T14:10:19+00:00</updated>
+    <published>2016-11-01T17:00:00-07:00</published>
+    <updated>2016-11-02T07:10:19-07:00</updated>
     <author>
       <name>Ruth John - @rumyra</name>
     </author>
@@ -134,8 +191,8 @@
     <title>Codevember Number One</title>
     <link rel="alternate" href="http://rumyrashead.com/codevember-number-one.html"/>
     <id>http://rumyrashead.com/codevember-number-one.html</id>
-    <published>2016-11-01T00:00:00+00:00</published>
-    <updated>2016-11-01T22:03:56+00:00</updated>
+    <published>2016-10-31T17:00:00-07:00</published>
+    <updated>2016-11-01T15:03:56-07:00</updated>
     <author>
       <name>Ruth John - @rumyra</name>
     </author>
@@ -310,92 +367,6 @@ navigator.mediaDevices.getUserMedia({ audio: true, video: false })
 &lt;p&gt;The volume values received back from the analyser node range from 0-255, so I’m dividing by 2 to give rough value for the section to take up.&lt;/p&gt;
 
 &lt;p&gt;As the weeks go by we’ll find better, more smoother ways of dealing with the DOM, but for today; huzzah! We made some things move to the music - it plays pretty well to &lt;a href="https://www.youtube.com/watch?v=1plPyJdXKIY"&gt;Warrant G and Nate Dog - Regulate&lt;/a&gt;, if you were wondering…&lt;/p&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title>A Little Thing About Blends</title>
-    <link rel="alternate" href="http://rumyrashead.com/a-little-thing-about-blends.html"/>
-    <id>http://rumyrashead.com/a-little-thing-about-blends.html</id>
-    <published>2016-10-20T01:00:00+01:00</published>
-    <updated>2016-10-20T13:05:18+01:00</updated>
-    <author>
-      <name>Ruth John - @rumyra</name>
-    </author>
-    <content type="html">&lt;p&gt;I learnt a little thing whilst playing around with &lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode"&gt;CSS blend modes&lt;/a&gt; this morning which I thought I should share.&lt;/p&gt;
-
-&lt;p&gt;I was just making a little visual:&lt;/p&gt;
-
-&lt;figure class="media-feature"&gt;
-  &lt;img src="/media/visualPlain.jpg" /&gt;
-  &lt;figcaption&gt;Visual without blend modes&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;And I thought, wouldn't it be lovely to have some CSS blend modes to add some 🤗&lt;/p&gt;
-
-&lt;p&gt;So I wrote a little Sass @each to try them out. Firstly here's the HTML of one &lt;em&gt;flower&lt;/em&gt;, of which I have nine.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class="language-html"&gt;&amp;lt;section&amp;gt;
-  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
-  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
-  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
-  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
-  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
-  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
-  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
-  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
-  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
-  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
-  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
-  &amp;lt;div&amp;gt;&amp;lt;i&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
-&amp;lt;/section&amp;gt;  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;A bit gumphy, but rotating and sizing and well yeh… Then the @each&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class="language-css"&gt;@each $num, $blendMode in 
-  ( 1:overlay, 2:darken, 3:color-dodge, 4:color-burn, 5:hard-light, 6:difference, 7:hue, 8:saturation, 9:luminosity ) {
-  #ohFour #screen section:nth-of-type(#{$num}) i {
-    mix-blend-mode: $blendMode;
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;There are more modes than this, but I've only got 9 sections and we can subsitute.&lt;/p&gt;
-
-&lt;p&gt;Spot the obvious mistake. By putting the blend mode onto the &lt;code&gt;i&lt;/code&gt; element, we see no difference. As per the spec:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The mix-blend-mode CSS property describes how an element's content should blend with the content of the element's direct parent and the element's background.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;So let's back up and put it on the &lt;code&gt;section&lt;/code&gt;. Phew, there we go that's better.&lt;/p&gt;
-
-&lt;figure class="media-feature"&gt;
-  &lt;img src="/media/visualFirstBlend.jpg" /&gt;
-  &lt;figcaption&gt;Visual with first blend modes&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id="slow-rendering-and-fps-monitor"&gt;Slow rendering and FPS Monitor&lt;/h2&gt;
-
-&lt;p&gt;Now we could have put the blend mode on the &lt;code&gt;div&lt;/code&gt; elements. However the performance changes dramtically.&lt;/p&gt;
-
-&lt;p&gt;What with the audio analysis, amount of DOM elements and animation &lt;em&gt;with&lt;/em&gt; these blend modes is pretty trying in Chrome. I'm getting about 5fps when on the &lt;code&gt;div&lt;/code&gt;. Whereas on the &lt;code&gt;section&lt;/code&gt; I run at about 15fps. Not amazing, but I wonder who would notice in a club.&lt;/p&gt;
-
-&lt;p&gt;If you want to check out the FPS monitor in Chrome Dev Tools, just open them, click on the menu at the top right (three vertical dots), choose &lt;em&gt;'More tools'&lt;/em&gt; -&amp;gt; &lt;em&gt;'Rendering settings'&lt;/em&gt; and check &lt;em&gt;'FPS Meter'&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h2 id="different-blend-modes"&gt;Different Blend Modes&lt;/h2&gt;
-
-&lt;p&gt;Yeh I know you see it too. We've lost the little &lt;em&gt;flowers&lt;/em&gt; in the centre. Some blend modes don't like being blended against black. Let's change that @each up a bit!&lt;/p&gt;
-
-&lt;figure class="media-feature"&gt;
-  &lt;img src="/media/visualSecBlend.jpg" /&gt;
-  &lt;figcaption&gt;Visual with second blend modes&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I'm gonna be having some fun with CSS Blend Modes! Chroma key on video anyone?&lt;/p&gt;
 
 </content>
   </entry>

@@ -16,7 +16,7 @@
   <meta name="dcterms.rightsHolder" content="Ruth John for Rumyra Ltd, United Kingdom, 2015">
   <meta name="keywords" content="">
   <meta name="description" content="">
-  <title>The Middleman</title>
+  <title>Codevember Number Eight</title>
 
   <!--Stylesheets (include as necessary)-->
   <!--[if lte IE 9]>
@@ -27,7 +27,7 @@
   <script src="/assets/javascripts/all.js" type="text/javascript"></script>
 </head>
 
-  <body class="category category_audio-api"><div>
+  <body class="codevember-number-eight"><div>
 
     <header role="main">
       
@@ -63,14 +63,13 @@
       </nav>
     </aside>
 
-    
-  <article class="post-summary craft-code">
-    <header>
-      <a href="blog/2016-11-10-codevember-number-eight.html"><h2>Codevember Number Eight</h2></a>
-      <time datetime="2016-11-10">November 10, 2016</time>
-    </header>
-    <div class="post-content">
-      <h3 id="part-two-random-cool-new-features">Part Two: Random Cool New Features</h3>
+    <article class="post craft-code">
+  <header>
+     <h2>Codevember Number Eight</h2>
+     <time datetime="2016-11-10">November 10, 2016</time>
+  </header>
+  <div class="post-content">
+    <h3 id="part-two-random-cool-new-features">Part Two: Random Cool New Features</h3>
 
 <p>So this next section I did ponder for a while. I could take you straight on to a much better way of creating visuals within the DOM, but before I do that I want to introduce some new features we have in simple CSS that can really help our visuals later down the track. Our inspiration for this set is a little tumblr called <a href="http://intothecontinuum.tumblr.com/">Archery: Into the Continuum</a>. Here I want to take inspiration from some of these random gifs, not exactly replicate them.</p>
 
@@ -86,59 +85,52 @@
 
 <p>And the much talked about CSS Custom properties. ✨💥💜 We can really use these to our advantage when doing audio vis work as we can reference them directly in our JavaScript and basically update our CSS in realtime.</p>
 
-<p>
-    </div>
-    <a href="/codevember-number-eight.html" class="link-fullart icon-after i-forward">Full Article</a>
-  </article>
-  <article class="post-summary craft-code">
-    <header>
-      <a href="blog/2016-11-06-codevember-number-five.html"><h2>Codevember Number Five</h2></a>
-      <time datetime="2016-11-06">November  6, 2016</time>
-    </header>
-    <div class="post-content">
-      <p>Today sees the last in our Bridget Riley series. We'll move on to something different tomorrow…</p>
+<p></p>
 
-<p>Today is Bridget Riley's Static 4:</p>
+<p>Custom properties are declared at the start of your CSS with a <code>:root</code> block and can be references throughout your CSS, much like (but not entirely) pre-processor variables. So instead of declaring properties that make sense as far as styling goes, I’m going to be changing them within my JavaScript, so it makes sense to name them something a little more explicit.</p>
 
-<figure>
-  <img src="/media/bridgetStatic.jpg" />
-  <figcaption>Bridget Riley : Static 4</figcaption>
-</figure>
+<p>For this we’ll create a <code>—level</code> property, and just grab one of the items of the <code>frequencyData</code> array and pipe it in. This is where the magic happens:</p>
 
-<p>
-    </div>
-    <a href="/codevember-number-five.html" class="link-fullart icon-after i-forward">Full Article</a>
-  </article>
-  <article class="post-summary craft-code">
-    <header>
-      <a href="blog/2016-11-05-codevember-number-four.html"><h2>Codevember Number Four</h2></a>
-      <time datetime="2016-11-05">November  5, 2016</time>
-    </header>
-    <div class="post-content">
-      <p>We're in it for the long haul - so we're still using the same technique. Stick with me - come next week, I'll be looking at some different, new shiny things and the week after the same. Over the next month we shall learn some great audio vis techniques together. These ones aren't bad btw - they may just not be 'wow' juuuussstt yet 🙃</p>
+<pre><code class="language-css">:root {
+  --level: 1;
+}</code></pre>
 
-<p>This is my inspiration for today’s pen: Bridget Riley's Quiver 3.</p>
+<pre><code class="language-javascript">document.documentElement.style.setProperty('--level', frequencyData[10]/255);
+</code></pre>
 
-<figure>
-  <img src="/media/bridgetQuiver.jpg" />
-  <figcaption>Bridget Riley : Quiver 3</figcaption>
-</figure>
+<p>This —level property will now update <em>*within out css*</em>. Oh. My. Gawd. I know right… 😱</p>
 
-<p>I really like this one, although it took a few tricks to get the triangles looking and positioned right. And I even didn't replicate the curved edges particularly. Later on in this series I'm going to explore different techniques and hopefully find better ways of creating shapes like these (SVGs anyone?).</p>
+<p>Magic!</p>
 
-<p>
-    </div>
-    <a href="/codevember-number-four.html" class="link-fullart icon-after i-forward">Full Article</a>
-  </article>
+<p>So if we use it on the opacity for instance:</p>
+
+<pre><code class="language-css">i {
+  opacity: var(--level);
+}</code></pre>
+
+<p>Boom! Opacity of <code>i</code> updated! In real time, in our CSS.</p>
+
+<p>I know - all the wows!</p>
+
+<p data-height="300" data-theme-id="1345" data-slug-hash="yVeoJo" data-default-tab="html,result" data-user="Rumyra" data-embed-version="2" data-pen-title="yVeoJo" class="codepen">See the Pen <a href="https://codepen.io/Rumyra/pen/yVeoJo/">yVeoJo</a> by Rumyra (<a href="http://codepen.io/Rumyra">@Rumyra</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 
-<ul class="list-posts">
-   <li class="craft-code">
-<a href="blog/2016-11-02-codevember-number-two.html">      <h2>Codevember Number Two</h2>
-      <time datetime="2016-11-02">November  2, 2016</time>
-      <span class="link-fullart icon-after i-forward">Full Article</span>
-</a>   </li>
-</ul>
+  </div>
+  <div class="post-tags">
+    <p>Tags:
+       <!-- <li><a href="/blog/tags/codevember/">codevember</a></li> -->
+       <span>codevember,&nbsp;</span>
+       <!-- <li><a href="/blog/tags/audio-vis/">audio-vis</a></li> -->
+       <span>audio-vis,&nbsp;</span>
+       <!-- <li><a href="/blog/tags/new-css-thangs/">new-css-thangs</a></li> -->
+       <span>new-css-thangs,&nbsp;</span>
+       <!-- <li><a href="/blog/tags/audio-api/">audio-api</a></li> -->
+       <span>audio-api,&nbsp;</span>
+    </p>
+  </div>
+</article>
+
 
     </section>
 
