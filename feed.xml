@@ -5,16 +5,70 @@
   <id>http://rumyrashead.com/</id>
   <link href="http://rumyrashead.com/"/>
   <link href="http://rumyrashead.com/feed.xml" rel="self"/>
-  <updated>2016-11-09T16:00:00-08:00</updated>
+  <updated>2016-11-19T00:00:00+00:00</updated>
   <author>
     <name>Ruth John - @rumyra</name>
   </author>
   <entry>
+    <title>Codevember Number Nine And Ten</title>
+    <link rel="alternate" href="http://rumyrashead.com/codevember-number-nineten.html"/>
+    <id>http://rumyrashead.com/codevember-number-nineten.html</id>
+    <published>2016-11-19T00:00:00+00:00</published>
+    <updated>2016-11-19T18:46:06+00:00</updated>
+    <author>
+      <name>Ruth John - @rumyra</name>
+    </author>
+    <content type="html">&lt;p&gt;Phew, there was a break wasn't there! Apparently it's hard to keep up when you're on the road. So I thought there's probably only one thing to do and that's try and do &lt;em&gt;two&lt;/em&gt; codevembers for the next few days to make up for it.&lt;/p&gt;
+
+&lt;p&gt;Let's see how that goes 🤓&lt;/p&gt;
+
+&lt;h3 id="audiovis-9"&gt;AudioVis #9&lt;/h3&gt;
+
+&lt;p&gt;NB This one comes with a warning. The way I coded this is highly UNRECOMMENDED. Not only was it a total ball ache, it doesn’t perform well and there are work arounds. It took what felt like days and the result is not amazing. If you’re wondering, I would probably use canvas for an audio vis of this nature in future. Hashtag learning, amiright?&lt;/p&gt;
+
+&lt;p&gt;So today I’m going to expand a little on yesterday and take influence from &lt;a href="http://intothecontinuum.tumblr.com/post/119241330868/maihudson-mathematica-codesn-t-sinn3"&gt;this crazy gif&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;But in my version, I want a shape for each of the low frequencies, the mid frequencies and the high frequencies, that change depending on the level we get back from the analysis.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;I'm setting a load more custom properties than the previous &lt;a href="https://codepen.io/Rumyra/pen/yVeoJo"&gt;codevember&lt;/a&gt;, so I'm looping over them in the JS. Things I learnt include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We actually don’t need to set those properties in the root block at the top of our CSS if we’re setting them within our JavaScript. They’re set there, so they get passed into the CSS regardless… nuice!&lt;/li&gt;
+  &lt;li&gt;Maths in CSS is hard, even with nice things like a &lt;code&gt;calc&lt;/code&gt; function and shiny extras preprocessors like Sass give us. JavaScript is much better as maths, so I found keeping number crunching there is a lot better. Just pass the value you want in the CSS into the custom property.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p data-height="300" data-theme-id="1345" data-slug-hash="NbdXaE" data-default-tab="html,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #9" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/NbdXaE/"&gt;Codevember AudioVis #9&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;This one was a great learning experience and great experiment, even if the final result wasn't ideally what I was after at the start. I would keep using custom properties to do things like filter effects and glitch's for final VJing rather than modifying multiple DOM elements with them in the future.&lt;/p&gt;
+
+&lt;h3 id="audiovis-10-blend-modes-"&gt;AudioVis #10: Blend Modes 😎&lt;/h3&gt;
+
+&lt;p&gt;Inspiration:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src="http://66.media.tumblr.com/cc6b92fc94e847f5358890da3ed2c5c5/tumblr_nobi29xtOO1sn5m9vo4_1280.gif" /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I've actually written about using blend modes for &lt;a href="http://rumyrashead.com/a-little-thing-about-blends.html"&gt;this audio vis before&lt;/a&gt;. The make up of the visual itself isn't too different code wise to previous ones. I have some DOM elements, I am positioing them, I am animating them, the only extra feature I am encorporating is blend modes on the elements to see what effect that has.&lt;/p&gt;
+
+&lt;p&gt;It looks super nice, but with all the DOM elements I have with this one performance isn't so great. I can up it by making sure I add the &lt;code&gt;will-change&lt;/code&gt; property in the CSS to any elements that have any other properties that are to change.&lt;/p&gt;
+
+&lt;p&gt;However I think we should probably move into a better, more performant way of creating and manipulating DOM els for audio vis, don't you?&lt;/p&gt;
+
+&lt;p data-height="300" data-theme-id="1345" data-slug-hash="BQprdW" data-default-tab="html,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #10" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/BQprdW/"&gt;Codevember AudioVis #10&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
+
+</content>
+  </entry>
+  <entry>
     <title>Codevember Number Eight</title>
     <link rel="alternate" href="http://rumyrashead.com/codevember-number-eight.html"/>
     <id>http://rumyrashead.com/codevember-number-eight.html</id>
-    <published>2016-11-09T16:00:00-08:00</published>
-    <updated>2016-11-10T15:22:29-08:00</updated>
+    <published>2016-11-10T00:00:00+00:00</published>
+    <updated>2016-11-11T23:57:44+00:00</updated>
     <author>
       <name>Ruth John - @rumyra</name>
     </author>
@@ -47,7 +101,7 @@
 &lt;pre&gt;&lt;code class="language-javascript"&gt;document.documentElement.style.setProperty('--level', frequencyData[10]/255);
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;This —level property will now update &lt;em&gt;*within out css*&lt;/em&gt;. Oh. My. Gawd. I know right… 😱&lt;/p&gt;
+&lt;p&gt;This —level property will now update &lt;em&gt;*within our  css*&lt;/em&gt;. Oh. My. Gawd. I know right… 😱&lt;/p&gt;
 
 &lt;p&gt;Magic!&lt;/p&gt;
 
@@ -70,8 +124,8 @@
     <title>Codevember Number Five</title>
     <link rel="alternate" href="http://rumyrashead.com/codevember-number-five.html"/>
     <id>http://rumyrashead.com/codevember-number-five.html</id>
-    <published>2016-11-05T17:00:00-07:00</published>
-    <updated>2016-11-06T10:27:50-08:00</updated>
+    <published>2016-11-06T00:00:00+00:00</published>
+    <updated>2016-11-06T18:27:50+00:00</updated>
     <author>
       <name>Ruth John - @rumyra</name>
     </author>
@@ -98,8 +152,8 @@
     <title>Codevember Number Four</title>
     <link rel="alternate" href="http://rumyrashead.com/codevember-number-four.html"/>
     <id>http://rumyrashead.com/codevember-number-four.html</id>
-    <published>2016-11-04T17:00:00-07:00</published>
-    <updated>2016-11-05T17:45:52-07:00</updated>
+    <published>2016-11-05T00:00:00+00:00</published>
+    <updated>2016-11-06T00:45:52+00:00</updated>
     <author>
       <name>Ruth John - @rumyra</name>
     </author>
@@ -134,8 +188,8 @@
     <title>Codevember Number Three</title>
     <link rel="alternate" href="http://rumyrashead.com/codevember-number-three.html"/>
     <id>http://rumyrashead.com/codevember-number-three.html</id>
-    <published>2016-11-02T17:00:00-07:00</published>
-    <updated>2016-11-03T12:51:05-07:00</updated>
+    <published>2016-11-03T00:00:00+00:00</published>
+    <updated>2016-11-03T19:51:05+00:00</updated>
     <author>
       <name>Ruth John - @rumyra</name>
     </author>
@@ -162,8 +216,8 @@
     <title>Codevember Number Two</title>
     <link rel="alternate" href="http://rumyrashead.com/codevember-number-two.html"/>
     <id>http://rumyrashead.com/codevember-number-two.html</id>
-    <published>2016-11-01T17:00:00-07:00</published>
-    <updated>2016-11-02T07:10:19-07:00</updated>
+    <published>2016-11-02T00:00:00+00:00</published>
+    <updated>2016-11-02T14:10:19+00:00</updated>
     <author>
       <name>Ruth John - @rumyra</name>
     </author>
@@ -184,189 +238,6 @@
 
 &lt;p data-height="300" data-theme-id="1345" data-slug-hash="PbYGNB" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #2" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/PbYGNB/"&gt;Codevember AudioVis #2&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title>Codevember Number One</title>
-    <link rel="alternate" href="http://rumyrashead.com/codevember-number-one.html"/>
-    <id>http://rumyrashead.com/codevember-number-one.html</id>
-    <published>2016-10-31T17:00:00-07:00</published>
-    <updated>2016-11-01T15:03:56-07:00</updated>
-    <author>
-      <name>Ruth John - @rumyra</name>
-    </author>
-    <content type="html">&lt;p&gt;Welcome to my Codevember. This month I’m going to take you through some audio visualisation techniques in the browser. I’ve written and spoken about this a number of times, as well as made a few codepens every now and again, but I thought I would take this month to go over creating audio triggered visuals from the ground up.&lt;/p&gt;
-
-&lt;p&gt;Not only do I hope this be a learning journey for you, but one for me as well, there’s been a number of different techniques, new web features, libraries etc… that I’ve wanted to try, it seems like Codevember is the perfect opportunity.&lt;/p&gt;
-
-&lt;p data-height="300" data-theme-id="1345" data-slug-hash="pEMGEP" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #1" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/pEMGEP/"&gt;Codevember AudioVis #1&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
-
-&lt;p&gt;We’re going to start vanilla, from the very basics, just using the very minimal we can from the web audio API and some DOM elements, then slowly I’ll start trying some different techniques. By the end we would have covered audio analysing, new css techniques, d3.js which I find is so suited to audio-vis, bringing in some svgs and hopefully some canvas too.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;And along with each technique I’ll be taking influence from somewhere different, be that an artist, a book from the &lt;a href="https://www.instagram.com/p/BLWXiGdDDmo/?taken-by=rumyra"&gt;stepshelf&lt;/a&gt; or some tumblr somewhere.&lt;/p&gt;
-
-&lt;p&gt;By the end of the month you’ll understand why audio vis has excited me for all these years, and why the browser can be such an incredible environment for this creativity.&lt;/p&gt;
-
-&lt;p&gt;A couple of things to note:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;This is a learning experience for me too, so things may stay quite basic. The code will probably &lt;em&gt;be&lt;/em&gt; basic, however this does mean it won’t be too complicated for entry level coders.&lt;/li&gt;
-  &lt;li&gt;I’ll be analysing audio from the microphone, which means I’ll be using the &lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Streams_API"&gt;Media Streams API&lt;/a&gt;, which only works over https, you’ll need to view the pens over https://codepen.io&lt;/li&gt;
-  &lt;li&gt;Things work best in Canary so I’ve noticed, please don’t expect pens to work cross browser. The main end game for me is to integrate them into my VJ software, which I run in a sandboxed environment (my machine, my choice of browser) sux I know!&lt;/li&gt;
-  &lt;li&gt;I’ll be cross posting all these articles to both my &lt;a href="https://codepen.io/Rumyra/posts/published/"&gt;Codepen Blog&lt;/a&gt; and &lt;a href="http://rumyrashead.com/"&gt;my personal blog&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;There's a high chance I won't make every single day, but I will try 🙃&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="so-lets-begin"&gt;So Let’s Begin&lt;/h2&gt;
-
-&lt;h3 id="basic-audio-analysis-and-dom-manipulation"&gt;Basic audio analysis and DOM manipulation&lt;/h3&gt;
-
-&lt;p&gt;Let’s start with the audio things we’re going to need. The audio API can be a bit over whelming. There’s a whole bunch of properties and methods you get when you create a new audio context. There’s inputs, filters, effects… but we can feel a bit better because we only need one piece of functionality - the analyser.&lt;/p&gt;
-
-&lt;h4 id="setting-up-the-audio-api"&gt;Setting up the audio API&lt;/h4&gt;
-
-&lt;p&gt;Let’s start by creating a new audio context and initiating our variables.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class="language-javascript"&gt;// set up audio context
-var audioContext = (window.AudioContext || window.webkitAudioContext);
-// create audio class
-if (audioContext) {
-  // Web Audio API is available.
-  var audioAPI = new audioContext();
-  } else {
-  // Web Audio API is not available. Ask the user to use a supported browser.
-  alert("Oh nos! It appears your browser does not support the Web Audio API, please upgrade or use a different browser");
-}
-
-// variables
-var analyserNode,
-  frequencyData = new Uint8Array(256);
-const screen = document.querySelector('#screen'),
-  allRepeatedEls = document.querySelectorAll('#screen section'),
-  totalEls = allRepeatedEls.length;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Here we’re checking the browser has the audio API available and instantiating a new context &lt;code&gt;var audioAPI&lt;/code&gt; for use.&lt;/p&gt;
-
-&lt;p&gt;Then we’re just creating a few variables for use later on.&lt;/p&gt;
-
-&lt;p&gt;Now we need to hook into the functionality of the analyser node that comes with the audio API. The analyser node comes with methods for us to access both frequency and time data, for what we want we just need the &lt;code&gt;getByteFrequencyData&lt;/code&gt; method which we will use later. But as that uses ‘fft’ data (fast fourier transform) we need to set up an array for that data to be saved into, and also set the size. This is where the &lt;code&gt;frequencyData = new Uint8Array(256)&lt;/code&gt; comes into play above. A good way to view the size is it’s a bit like resolution - the bigger this array, the more intricate the data and thus the more information about the frequencies heard we can display. This is more than likely set to around 1024, however for the purposes of a simple visualisation like this first one I’m taking you through, 256 more than suffices.&lt;/p&gt;
-
-&lt;p&gt;So let’s create and connect our analyser node:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class="language-javascript"&gt;function createAnalyserNode(audioSource) {
-  analyserNode = audioAPI.createAnalyser();
-  analyserNode.fftSize = 512;
-  audioSource.connect(analyserNode);
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Note that the &lt;code&gt;fftSize&lt;/code&gt; property has been set to twice the array size we set earlier. The in depth stuff behind fast Fourier transforms are slightly out of the remit of this article, but you can &lt;a href="https://en.wikipedia.org/wiki/Fast_Fourier_transform"&gt;read more here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Another thing to note is we &lt;em&gt;connect&lt;/em&gt; the analyser node to the audio source, as all methods within the audio API are are viewed upon as nodes that you connect together. So you can connect inputs to filters to volume nodes to analysers etc…&lt;/p&gt;
-
-&lt;h4 id="getting-some-sound"&gt;Getting some sound&lt;/h4&gt;
-
-&lt;p&gt;Now we want an input for the audio API to analyse, we can just grab the microphone input: (NB this API needs permissions and only works over https or on localhost… just change the codepen url to have https:// at the beginning).&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class="language-javascript"&gt;// getUserMedia success callback -&amp;gt; pipe audio stream into audio API
-var gotStream = function(stream) {
-  // Create an audio input from the stream.
-  var audioSource = audioAPI.createMediaStreamSource(stream);
-  createAnalyserNode(audioSource);
-  animateStuff();
-}
-
-navigator.mediaDevices.getUserMedia({ audio: true, video: false })
-  .then(gotStream);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;We’re calling the &lt;code&gt;gotStream&lt;/code&gt; function when we receive an audio stream from the microphone, and within that we’re piping it into the audio API and calling the &lt;code&gt;createAnalyserNode&lt;/code&gt; function from above.&lt;/p&gt;
-
-&lt;p&gt;So the audio API now is analysing the audio stream from the microphone and we can stop here. But, we kinda want to move something around the browser based on the data we receive.&lt;/p&gt;
-
-&lt;h4 id="animating-stuff"&gt;Animating stuff&lt;/h4&gt;
-
-&lt;p&gt;You may have noticed the &lt;code&gt;gotStream&lt;/code&gt; function calling &lt;code&gt;animateStuff()&lt;/code&gt; which we haven’t written yet. Now here’s the fun part.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class="language-javascript"&gt;function animateStuff() {
-  requestAnimationFrame(animateStuff);
-  analyserNode.getByteFrequencyData(frequencyData);
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This is the start of our awesome animating function. We want it to keep running and analysing the sound, so we’ll use &lt;code&gt;requestAnimationFrame&lt;/code&gt; for that. Then we call the &lt;code&gt;getByteFrequencyData&lt;/code&gt; method on the analyser node we connected earlier and pass in our frequencyData array. This means at every item in our array represents a frequency and when called a volume level is being logged against that frequency.&lt;/p&gt;
-
-&lt;p&gt;The volume, (it’s actually amplitude, but, meh words), is just a number and we can use that number to change things, it’s updating all the time because of our &lt;code&gt;requestAnimationFrame&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;So to my inspiration for this set. Let me introduce &lt;a href="https://www.artsy.net/artist/bridget-riley"&gt;Bridget Riley&lt;/a&gt;. I only discovered her this year on a visit to the &lt;a href="https://www.nationalgalleries.org/visit/introduction-118"&gt;Scottish Gallery of Modern Art&lt;/a&gt; in Edinburgh - such stunning paintings! I knew as soon as I walked into the exhibition I had to make some of them move!&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src="/media/bridgetBook.jpg" /&gt;
-  &lt;figcaption&gt;Bridget Rileys Book from the Scottish exhibition&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;So let’s start with 'Rattle'. It’s a simple one where we can just create some sections and style them with background gradients and then make them shrink and grow horizontally to the sound.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src="/media/rattle.jpg" /&gt;
-  &lt;figcaption&gt;Bridget Riley: Rattle&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;pre&gt;&lt;code class="language-html"&gt;&amp;lt;div id="screen"&amp;gt;
-  &amp;lt;section&amp;gt;&amp;lt;/section&amp;gt;
-  &amp;lt;section&amp;gt;&amp;lt;/section&amp;gt;
-  &amp;lt;section&amp;gt;&amp;lt;/sect&amp;lt;on&amp;gt;
-  &amp;lt;section&amp;gt;&amp;lt;/section&amp;gt;
-  &amp;lt;section&amp;gt;&amp;lt;/section&amp;gt;
-  &amp;lt;section&amp;gt;&amp;lt;/section&amp;gt;
-  &amp;lt;section&amp;gt;&amp;lt;/section&amp;gt;
-  &amp;lt;section&amp;gt;&amp;lt;/section&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class="language-css"&gt;#screen {
-  position: relative; padding:1vh;
-  width: 100vw; height: 100vh;
-  box-sizing: border-box;
-  background: black;
-}
-#screen section {
-  height:8vh; margin: 3vh;
-  background-color: mediumorchid;
-  background-image: linear-gradient(45deg, mediumorchid 9%, seagreen 9%, seagreen 16%, white 16%, white 34%, seagreen 34%, seagreen 41%, mediumorchid 41%, mediumorchid 59%, seagreen 59%, seagreen 66%, white 66%, white 84%, seagreen 84%, seagreen 91%, mediumorchid 91% );
-  background-size: 2vh 2vh;
-}
-#screen section:nth-of-type(2n) {
-  background-image: linear-gradient(135deg, indianred 9%, seagreen 9%, seagreen 16%, white 16%, white 34%, seagreen 34%, seagreen 41%, indianred 41%, indianred 59%, seagreen 59%, seagreen 66%, white 66%, white 84%, seagreen 84%, seagreen 91%, indianred 91% );
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now we have 8 sections, all stretched along our &lt;em&gt;screen&lt;/em&gt; div. Let’s loop over them and change their width depending on the volume of a frequency.&lt;/p&gt;
-
-&lt;p&gt;You may have noticed already we have 256 frequencies and only 8 sections. There’s a couple of ways we can &lt;em&gt;play&lt;/em&gt; this, (sorry), we can either use the first 8 items in the frequency array for the first section and the next 8 for the next and so on, or we can jump 32 items and get a range of 8 frequencies from our spectrum. The choice is yours really - now it’s just about having fun and playing with the maths. Sometimes it also depends on what music you’re playing.&lt;/p&gt;
-
-&lt;p&gt;For simplicity, I’m going to jump.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class="language-javascript"&gt;function animateStuff() {
-  requestAnimationFrame(animateStuff);
-  analyserNode.getByteFrequencyData(frequencyData);
-  
-  for (let i=0; i&amp;lt;totalEls; i++) {
-    var freqVol = frequencyData[i*32]/2;
-    allRepeatedEls[i].style.width = freqVol+'vw';
-  }
-  
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The volume values received back from the analyser node range from 0-255, so I’m dividing by 2 to give rough value for the section to take up.&lt;/p&gt;
-
-&lt;p&gt;As the weeks go by we’ll find better, more smoother ways of dealing with the DOM, but for today; huzzah! We made some things move to the music - it plays pretty well to &lt;a href="https://www.youtube.com/watch?v=1plPyJdXKIY"&gt;Warrant G and Nate Dog - Regulate&lt;/a&gt;, if you were wondering…&lt;/p&gt;
 
 </content>
   </entry>
