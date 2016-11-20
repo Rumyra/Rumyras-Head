@@ -5,10 +5,33 @@
   <id>http://rumyrashead.com/</id>
   <link href="http://rumyrashead.com/"/>
   <link href="http://rumyrashead.com/feed.xml" rel="self"/>
-  <updated>2016-11-19T00:00:00+00:00</updated>
+  <updated>2016-11-20T00:00:00+00:00</updated>
   <author>
     <name>Ruth John - @rumyra</name>
   </author>
+  <entry>
+    <title>Codevember Number Eleven And Twelve</title>
+    <link rel="alternate" href="http://rumyrashead.com/codevember-number-eleventwelve.html"/>
+    <id>http://rumyrashead.com/codevember-number-eleventwelve.html</id>
+    <published>2016-11-20T00:00:00+00:00</published>
+    <updated>2016-11-20T22:33:04+00:00</updated>
+    <author>
+      <name>Ruth John - @rumyra</name>
+    </author>
+    <content type="html">&lt;p&gt;This is an experiement in symmetry. An effect that would be great in the final audio vis software.&lt;/p&gt;
+
+&lt;p data-height="300" data-theme-id="1345" data-slug-hash="bBqbBX" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #11" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/bBqbBX/"&gt;Codevember AudioVis #11&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;The original idea is a function that would take whatever was in the DOM and reflect and repeat it around so it would automatically make it look awesome.&lt;/p&gt;
+
+&lt;p&gt;It's kinda there - it needs some tweaking depending on whether we have an animation or gif/video that's needing the effect. Something that take some params depending on whether we want it rotated or reflected would be the best final solution me thinks.&lt;/p&gt;
+
+&lt;p data-height="300" data-theme-id="1345" data-slug-hash="Ropbyv" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #12" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/Ropbyv/"&gt;Codevember AudioVis #12&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
+
+</content>
+  </entry>
   <entry>
     <title>Codevember Number Nine And Ten</title>
     <link rel="alternate" href="http://rumyrashead.com/codevember-number-nineten.html"/>
@@ -210,35 +233,6 @@
 &lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
 
 &lt;p&gt;I’d recommend the &lt;a href="https://www.youtube.com/watch?v=1gbHItHuZ0E"&gt;opening credits to Luke Cage&lt;/a&gt; for this one.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Codevember Number Two</title>
-    <link rel="alternate" href="http://rumyrashead.com/codevember-number-two.html"/>
-    <id>http://rumyrashead.com/codevember-number-two.html</id>
-    <published>2016-11-02T00:00:00+00:00</published>
-    <updated>2016-11-02T14:10:19+00:00</updated>
-    <author>
-      <name>Ruth John - @rumyra</name>
-    </author>
-    <content type="html">&lt;p&gt;I’ve gone straight for something a bit weird for day two. But we’re not doing too much different from day one. Just adding a different background gradient to the divs, displaying them with a little flex magic and again changing the widths.&lt;/p&gt;
-
-&lt;p&gt;Yes these vis are simple, but I think it's good we're starting simple, stay with me and we'll see where we end!&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src="/media/bridgetSquares.jpg" /&gt;
-  &lt;figcaption&gt;Bridget Riley : Movement in Squares&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;It’s pertinent I didn’t change much, all these little codevembers are all part of a bigger remit to add to my browser powered VJ software: Vizra. By writing a different one each day I can begin to see what functionality to include in the software. For instance a ‘live coding’ editor would be great so as I’m running the software I can change the previous days to todays whilst I’m performing. That would be a cool feature.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=B-y-lS0YqF0"&gt;Mos Def - Ms Fat Booty&lt;/a&gt; for this one&lt;/p&gt;
-
-&lt;p data-height="300" data-theme-id="1345" data-slug-hash="PbYGNB" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #2" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/PbYGNB/"&gt;Codevember AudioVis #2&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
-
 </content>
   </entry>
 </feed>
