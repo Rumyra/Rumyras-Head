@@ -5,10 +5,110 @@
   <id>http://rumyrashead.com/</id>
   <link href="http://rumyrashead.com/"/>
   <link href="http://rumyrashead.com/feed.xml" rel="self"/>
-  <updated>2016-11-20T00:00:00+00:00</updated>
+  <updated>2016-11-21T00:00:00+00:00</updated>
   <author>
     <name>Ruth John - @rumyra</name>
   </author>
+  <entry>
+    <title>Codevember Number Thirteen and Fourteen</title>
+    <link rel="alternate" href="http://rumyrashead.com/codevember-number-thirfourteen.html"/>
+    <id>http://rumyrashead.com/codevember-number-thirfourteen.html</id>
+    <published>2016-11-21T00:00:00+00:00</published>
+    <updated>2016-11-21T22:02:43+00:00</updated>
+    <author>
+      <name>Ruth John - @rumyra</name>
+    </author>
+    <content type="html">&lt;h2 id="part-three-d3js"&gt;Part Three: d3.js&lt;/h2&gt;
+
+&lt;p&gt;Before I start I want to give a big shout out to &lt;a href="https://twitter.com/benjaminbenben"&gt;Ben (@benjaminbenben)&lt;/a&gt; who was helping me with some performance stuff I having trouble with. In doing so he really opened my eyes to how powerful d3 is and actually how suited a library it is to help with what we are doing here.&lt;/p&gt;
+
+&lt;p&gt;It’s dubbed a ‘visualisation library’, however I think it’s relationship with data has given it a reputation that makes people who haven't discovered it, assume it’s just for pie charts. That’s changing now, and don’t get me wrong it’s good for displaying data, but that’s just it it’s good with displaying &lt;em&gt;and&lt;/em&gt; it’s good with data. So anything you want to do with the DOM or anything you want to do with data and d3 has you covered.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve noticed a lot of the things I’m building use a great deal of DOM manipulation and data manipulation, so it felt like a great thing to start playing with. It’s also worth noting here I’m using version 3, version 4 was recently released with a great deal of updates and changes, but as I’m learning and pretty much all the tutorials still use version 3, I’m going to stick with that. When I’m more comfortable with the library I can start to look at the update documentation.&lt;/p&gt;
+
+&lt;p&gt;Just have a glance down the &lt;a href="https://github.com/d3/d3/blob/master/API.md"&gt;API reference&lt;/a&gt; and we can see some totally useful data functions, array methods, thing’s for colour, layout, timing… well loads of stuff which is great for what I’m doing here. Not just with creating, but keeping and manipulating, which is easier than me writing it all out manually, and will be much better performance wise as well.&lt;/p&gt;
+
+&lt;p&gt;Ok, ok, enough evangelising. Let’s get using.&lt;/p&gt;
+
+&lt;p&gt;We need data to get d3 to really do anything, but we have that, we have this array of velocity values from our frequency; &lt;code&gt;frequencyData&lt;/code&gt;. We can get d3 to create an element for each item in the array, attach the relative data to each element and then start to use it to manipulate the DOM element, whether that be change it’s size, position, colour of whatever.&lt;/p&gt;
+
+&lt;h3 id="number-thirteen-super-chart"&gt;Number Thirteen: Super Chart&lt;/h3&gt;
+
+&lt;figure&gt;
+  &lt;img src="media/superGraphic.jpg" /&gt;
+  &lt;figcaption&gt;Cover of Super Graphic book by Tim Leong&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;My inspiration for this series is from the book &lt;em&gt;Super Graphic&lt;/em&gt; by Tim Leong. It's a bunch of data visualisations from and about comic books. Check it out it's pretty sweet. Perfect for inspiration for audio vis!&lt;/p&gt;
+
+&lt;p&gt;So let’s start with this example:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src="media/superCharts.jpg" /&gt;
+  &lt;figcaption&gt;The Super Charts&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;At the moment we have 256 items in our frequency array, piping that into d3 would mean it would create 256 elements, one for each frequency (unless we did some array manipulation, but for simplicities sake, let’s just reduce the number of elements).&lt;/p&gt;
+
+&lt;p&gt;So let’s change it to less: &lt;code&gt;frequencyData = new Uint8Array(16);&lt;/code&gt; Remembering to change our fft size as well as we don't need it to be as big: &lt;code&gt;analyserNode.fftSize = 32;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Now all we need is a little d3 &lt;a href="https://bl.ocks.org/mbostock/3808218"&gt;“enter and exit”&lt;/a&gt; pattern. This is where we take the data and create a new element for each item, bind the data item to said element and add some params using said data.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-javascript"&gt;// enter and exit
+var svg = d3.select('svg');
+var circle = svg.selectAll('circle'),
+  radius = window.innerHeight/2.5-50;
+
+function drawCircles() {
+
+  requestAnimationFrame(drawCircles);
+  analyserNode.getByteFrequencyData(frequencyData);
+
+  circle = circle.data(frequencyData);
+  
+  circle
+    .enter().append('circle')
+    .attr("cy", function(d, i) {
+      return Math.round(window.innerHeight/2 + (radius*Math.sin((2*i*Math.PI)/16)) );
+    })
+    .attr("cx", function(d, i) {
+      return Math.round(window.innerWidth/2 + (radius*Math.cos((2*i*Math.PI)/16)) );
+    });
+  
+  circle
+    .attr("r", function(d) { return d/2; })
+    .attr("fill", "hsla(200,50%,80%,0.7)")
+    .exit().remove();
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here we’re creating a circle for each item in the &lt;code&gt;frequencyData&lt;/code&gt; array, then positioning them in a circle with a bit of maths. The params &lt;code&gt;d&lt;/code&gt; and &lt;code&gt;i&lt;/code&gt; being passed into the function are the data itself and the item number. So further below when we set the radius of the circle we can use the data, which as we know is the frequency velocity.&lt;/p&gt;
+
+&lt;p&gt;This all seems a little more succinct than how we were going about it before. In the final example I’m also creating a line, just to add a bit more 🤗&lt;/p&gt;
+
+&lt;p data-height="300" data-theme-id="1345" data-slug-hash="ENWLzK" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #13" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/ENWLzK/"&gt;Codevember AudioVis #13&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;You can already see the difference in performance compared to previous days. I’m from the "apprehensive to use a library unless I need/know etc…"" camp of JS, but in this instance it’s really helping. Most of the rest of the example are probably going to incorporate it I can imagine. So as we go through the next few days we can see what else d3 has to offer.&lt;/p&gt;
+
+&lt;h3 id="number-fourteen-super-colours"&gt;Number Fourteen: Super Colours&lt;/h3&gt;
+
+&lt;p&gt;What can I say - this one is probably the most me so far!&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src="media/superColours.jpg" /&gt;
+  &lt;figcaption&gt;The Super Charts&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The technique is much the same as the previous example, just this time we’re creating SVG &lt;code&gt;rect&lt;/code&gt; elements and doing some maths to position and colour them. The data is being used to adjust the brightness of the squares, although we could use it for anything. Another good example that would be good to live code at a gig.&lt;/p&gt;
+
+&lt;p data-height="300" data-theme-id="1345" data-slug-hash="mOWKdL" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="mOWKdL" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/mOWKdL/"&gt;mOWKdL&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
+
+</content>
+  </entry>
   <entry>
     <title>Codevember Number Eleven And Twelve</title>
     <link rel="alternate" href="http://rumyrashead.com/codevember-number-eleventwelve.html"/>
@@ -205,34 +305,6 @@
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Tweaked for &lt;a href="https://www.youtube.com/watch?v=zN226CmaNcI"&gt;Witness the Fitness by Roots Manuva&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Codevember Number Three</title>
-    <link rel="alternate" href="http://rumyrashead.com/codevember-number-three.html"/>
-    <id>http://rumyrashead.com/codevember-number-three.html</id>
-    <published>2016-11-03T00:00:00+00:00</published>
-    <updated>2016-11-03T19:51:05+00:00</updated>
-    <author>
-      <name>Ruth John - @rumyra</name>
-    </author>
-    <content type="html">&lt;p&gt;This is my inspiration for today’s pen: Bridget Riley's Dilated Centres.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src="/media/bridgetCentres.jpg" /&gt;
-  &lt;figcaption&gt;Bridget Riley : Dilated Centers&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;You may not be able to tell but the the circles aren’t quite concentric. The lovely &lt;a href="http://www.lottejackson.com/learning/nth-child-cicada-principle"&gt;Lotte Jackson wrote a post&lt;/a&gt; just over a month ago, about cicada, which reminded me about this piece. It used prime numbers and border radius’ to create a great ‘blobby’ effect on some images she was displaying on a website. It was a totally awesome technique, and I really wanted to try it out. What a great pen to do so with.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;Not much of the code from yesterday has changed at all apart from the DOM elements and a hec of a lot more CSS. Here I’m changing the border radius when I am looping over the &lt;code&gt;i&lt;/code&gt;’s in the &lt;code&gt;animateStuff()&lt;/code&gt; function. We have more elements this time so it feels a bit better.&lt;/p&gt;
-
-&lt;p data-height="300" data-theme-id="1345" data-slug-hash="BQayWP" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #3" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/BQayWP/"&gt;Codevember AudioVis #3&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
-
-&lt;p&gt;I’d recommend the &lt;a href="https://www.youtube.com/watch?v=1gbHItHuZ0E"&gt;opening credits to Luke Cage&lt;/a&gt; for this one.&lt;/p&gt;
 </content>
   </entry>
 </feed>
