@@ -5,10 +5,37 @@
   <id>http://rumyrashead.com/</id>
   <link href="http://rumyrashead.com/"/>
   <link href="http://rumyrashead.com/feed.xml" rel="self"/>
-  <updated>2016-11-21T00:00:00+00:00</updated>
+  <updated>2016-11-22T00:00:00+00:00</updated>
   <author>
     <name>Ruth John - @rumyra</name>
   </author>
+  <entry>
+    <title>Codevember Number Fifteen</title>
+    <link rel="alternate" href="http://rumyrashead.com/codevember-number-fifteen.html"/>
+    <id>http://rumyrashead.com/codevember-number-fifteen.html</id>
+    <published>2016-11-22T00:00:00+00:00</published>
+    <updated>2016-11-22T15:57:33+00:00</updated>
+    <author>
+      <name>Ruth John - @rumyra</name>
+    </author>
+    <content type="html">&lt;h3 id="super-sun"&gt;Super Sun&lt;/h3&gt;
+
+&lt;p&gt;Today's inspiration is:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src="media/superSun.jpg" /&gt;
+  &lt;figcaption&gt;The Super Sun&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Today's is a little bit trickier as we have to create arc elements drawn in a circle that increase their outer arc with our data. But otherwise the code goes much the same as the previous days.&lt;/p&gt;
+
+&lt;p&gt;Sorry this isn't more insightful, but I am on a train on the way to the airport! Hopefully I'll be making more on the plane ✈️&lt;/p&gt;
+
+&lt;p data-height="300" data-theme-id="1345" data-slug-hash="MbmwGy" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="AudioVis Codevember #15" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/MbmwGy/"&gt;AudioVis Codevember #15&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
+
+</content>
+  </entry>
   <entry>
     <title>Codevember Number Thirteen and Fourteen</title>
     <link rel="alternate" href="http://rumyrashead.com/codevember-number-thirfourteen.html"/>
@@ -269,42 +296,6 @@ function drawCircles() {
 &lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
 
 &lt;p&gt;Let’s end on a classic: &lt;a href="https://www.youtube.com/watch?v=KYSPfTMyJ2s"&gt;A to the K - Cyprus Hill&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Codevember Number Four</title>
-    <link rel="alternate" href="http://rumyrashead.com/codevember-number-four.html"/>
-    <id>http://rumyrashead.com/codevember-number-four.html</id>
-    <published>2016-11-05T00:00:00+00:00</published>
-    <updated>2016-11-06T00:45:52+00:00</updated>
-    <author>
-      <name>Ruth John - @rumyra</name>
-    </author>
-    <content type="html">&lt;p&gt;We're in it for the long haul - so we're still using the same technique. Stick with me - come next week, I'll be looking at some different, new shiny things and the week after the same. Over the next month we shall learn some great audio vis techniques together. These ones aren't bad btw - they may just not be 'wow' juuuussstt yet 🙃&lt;/p&gt;
-
-&lt;p&gt;This is my inspiration for today’s pen: Bridget Riley's Quiver 3.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src="/media/bridgetQuiver.jpg" /&gt;
-  &lt;figcaption&gt;Bridget Riley : Quiver 3&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I really like this one, although it took a few tricks to get the triangles looking and positioned right. And I even didn't replicate the curved edges particularly. Later on in this series I'm going to explore different techniques and hopefully find better ways of creating shapes like these (SVGs anyone?).&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;The only big difference here is I’m jumping up the frequencies by 4 steps at a time, as there’s only 40 elements.&lt;/p&gt;
-
-&lt;p&gt;Also, I'm only showing elements (or setting an opacity more than zero) when the frequency velocity hits over 50.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class="language-javascript"&gt;if (freqVol &amp;gt; 50) {
-  allRepeatedEls[i].style.opacity = freqVol/150;
-} else {
-  allRepeatedEls[i].style.opacity = 0;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Tweaked for &lt;a href="https://www.youtube.com/watch?v=zN226CmaNcI"&gt;Witness the Fitness by Roots Manuva&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>
