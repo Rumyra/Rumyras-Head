@@ -5,10 +5,116 @@
   <id>http://rumyrashead.com/</id>
   <link href="http://rumyrashead.com/"/>
   <link href="http://rumyrashead.com/feed.xml" rel="self"/>
-  <updated>2016-11-22T00:00:00+00:00</updated>
+  <updated>2017-01-25T00:00:00+00:00</updated>
   <author>
     <name>Ruth John - @rumyra</name>
   </author>
+  <entry>
+    <title>Codevember Review</title>
+    <link rel="alternate" href="http://rumyrashead.com/codevember-review.html"/>
+    <id>http://rumyrashead.com/codevember-review.html</id>
+    <published>2017-01-25T00:00:00+00:00</published>
+    <updated>2017-01-25T20:01:47+00:00</updated>
+    <author>
+      <name>Ruth John - @rumyra</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;I wrote this back in December, then hopped in a campervan and trvelled round Australia and barely opened my laptop. It's probably still worth releasing tho&lt;/em&gt; 👉&lt;/p&gt;
+
+&lt;p&gt;Firstly let's go over the last few - here's the inspiration:&lt;/p&gt;
+
+&lt;h3 id="concentric-circles"&gt;Concentric Circles&lt;/h3&gt;
+
+&lt;figure&gt;
+  &lt;img src="media/superConcen.jpg" /&gt;
+  &lt;figcaption&gt;Concentric Circles&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p data-height="300" data-theme-id="1345" data-slug-hash="QGMyXm" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="AudioVis Codevember #16" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/QGMyXm/"&gt;AudioVis Codevember #16&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;This was an extension of the sunburst really, it's just the shapes are being extended around rather than out. &lt;em&gt;Super&lt;/em&gt; luv this (see what I did there)&lt;/p&gt;
+
+&lt;h3 id="just-circles"&gt;Just Circles&lt;/h3&gt;
+
+&lt;figure&gt;
+  &lt;img src="media/superCircles.jpg" /&gt;
+  &lt;figcaption&gt;Super Circles&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p data-height="300" data-theme-id="1345" data-slug-hash="ENvwMK" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="AudioVis Codevember #17" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/ENvwMK/"&gt;AudioVis Codevember #17&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;It seems simple but you can have fun with this, lots of size and distribution fun.&lt;/p&gt;
+
+&lt;h3 id="custom-svgs"&gt;Custom SVGs&lt;/h3&gt;
+
+&lt;p&gt;This is Takashi Murakami. He's a crazy artist, I found this book at a random second hand sale at my mums old school:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src="media/takashiCover.jpg" /&gt;
+  &lt;figcaption&gt;Takashi Murakami book cover&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Then he had an exhibition when I was in London and I spot his work regularly at other exhibition. Suffice to say it's pretty awesome. Anyway super uber great for playing with a custom SVG:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src="media/takashiScene.jpg" /&gt;
+  &lt;figcaption&gt;Takashi Murakami scene&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p data-height="300" data-theme-id="1345" data-slug-hash="pNdmBO" data-default-tab="html,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #19" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/pNdmBO/"&gt;Codevember AudioVis #19&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;All using the d3 technique, which I'm super enjoying for a number of reasons:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Perfomance&lt;/li&gt;
+  &lt;li&gt;SVGs&lt;/li&gt;
+  &lt;li&gt;Can also be used with Canvas and DOM elements&lt;/li&gt;
+  &lt;li&gt;I haven't even begun with other methods which I'm super excited about&lt;/li&gt;
+  &lt;li&gt;Within the final software I just have to set some params and call a function to create the vis - this integrates really well within the eco system&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="retrospective"&gt;Retrospective&lt;/h2&gt;
+
+&lt;h3 id="things-i-learntenjoyed"&gt;Things I learnt/enjoyed&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;That trying to code a pen every single day is hard - especially if you are learning new techniques &lt;em&gt;and&lt;/em&gt; writing blog posts&lt;/li&gt;
+  &lt;li&gt;Inspiration is cool, it gives you some boundaries. I luv making vis the sky is the limit, but this can be intimidating some times and you need a thread to start&lt;/li&gt;
+  &lt;li&gt;Some d3, which makes me happy&lt;/li&gt;
+  &lt;li&gt;Which techniques worked the best for visuals in a browser, or rather which ones worked better than others&lt;/li&gt;
+  &lt;li&gt;It really made me think about integration into the vis software&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="things-i-didntwould-do-different-next-time"&gt;Things I didn't/would do different next time&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I was also travelling throughout November and didn't take that into account, although I didn't think I'd hit 30 pens, I thought I would do better than 19&lt;/li&gt;
+  &lt;li&gt;I really wanted to try canvas and webGL and didn't get that far&lt;/li&gt;
+  &lt;li&gt;I would load music, rather than using the mic so it would work over http, I think people are confused by the https link&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="summary"&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;I actually think this is the start of something. I've been meaning to release audio-vis into the wild for a while and it was a great excuse to get started.&lt;/p&gt;
+
+&lt;p&gt;My VJ software Vizra has also got off the ground. There's an original hack version of the software which I've been experimenting with, performing with and generally messing around with for the past 18 months or so - but it's great to get a proper build off the ground.&lt;/p&gt;
+
+&lt;h4 id="note-from-december"&gt;Note from December&lt;/h4&gt;
+&lt;p&gt;I'm taking a break for the rest of December - I'm in Australia for JSconfAU and will be travelling around once this is over, until Christmas. But there will be more, I can guarantee that, so just &lt;a href="https://twitter.com/Rumyra"&gt;follow me&lt;/a&gt; to keep up to date :)&lt;/p&gt;
+
+&lt;h4 id="note-from-now"&gt;Note from now&lt;/h4&gt;
+&lt;p&gt;This work made a big part of my talk for JSConfAU which was actually one of my favourtie talks from last year. I've also started other work in different areas of the vis, like the analysis part started in &lt;a href="http://12devsofxmas.co.uk/2017/01/day-12-beat-dis-re-addressing-audio-analysis/"&gt;this article for 12 Devs of Xmas&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Basically it's all go and super cool and Codevember was awesome 🕶&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>Codevember Number Fifteen</title>
     <link rel="alternate" href="http://rumyrashead.com/codevember-number-fifteen.html"/>
@@ -268,34 +374,6 @@ function drawCircles() {
 &lt;p data-height="300" data-theme-id="1345" data-slug-hash="yVeoJo" data-default-tab="html,result" data-user="Rumyra" data-embed-version="2" data-pen-title="yVeoJo" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/yVeoJo/"&gt;yVeoJo&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>Codevember Number Five</title>
-    <link rel="alternate" href="http://rumyrashead.com/codevember-number-five.html"/>
-    <id>http://rumyrashead.com/codevember-number-five.html</id>
-    <published>2016-11-06T00:00:00+00:00</published>
-    <updated>2016-11-06T18:27:50+00:00</updated>
-    <author>
-      <name>Ruth John - @rumyra</name>
-    </author>
-    <content type="html">&lt;p&gt;Today sees the last in our Bridget Riley series. We'll move on to something different tomorrow…&lt;/p&gt;
-
-&lt;p&gt;Today is Bridget Riley's Static 4:&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src="/media/bridgetStatic.jpg" /&gt;
-  &lt;figcaption&gt;Bridget Riley : Static 4&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;This harks back to day three really, but it’s just a nice easy one. Albeit getting the circles to grow from the centre. Again nothing too special here, but it’ll look super good laid over a video I’m sure :)&lt;/p&gt;
-
-&lt;p data-height="300" data-theme-id="1345" data-slug-hash="yVypOR" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #5" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/yVypOR/"&gt;Codevember AudioVis #5&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
-
-&lt;p&gt;Let’s end on a classic: &lt;a href="https://www.youtube.com/watch?v=KYSPfTMyJ2s"&gt;A to the K - Cyprus Hill&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
 </feed>
