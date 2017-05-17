@@ -5,10 +5,49 @@
   <id>http://rumyrashead.com/</id>
   <link href="http://rumyrashead.com/"/>
   <link href="http://rumyrashead.com/feed.xml" rel="self"/>
-  <updated>2017-01-25T00:00:00+00:00</updated>
+  <updated>2017-05-17T01:00:00+01:00</updated>
   <author>
     <name>Ruth John - @rumyra</name>
   </author>
+  <entry>
+    <title>How To Be On Fire</title>
+    <link rel="alternate" href="http://rumyrashead.com/how-to-be-on-fire.html"/>
+    <id>http://rumyrashead.com/how-to-be-on-fire.html</id>
+    <published>2017-05-17T01:00:00+01:00</published>
+    <updated>2017-05-17T23:36:45+01:00</updated>
+    <author>
+      <name>Ruth John - @rumyra</name>
+    </author>
+    <content type="html">&lt;p&gt;So the other day I shared a relatively crazy experience I had in Vienna last week.&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet" data-partner="tweetdeck"&gt;&lt;p lang="en" dir="ltr"&gt;Thankfully gettin my hair sorted out after I CAUGHT IT ON FIRE in Vienna (ask &lt;a href="https://twitter.com/csswizardry"&gt;@csswizardry&lt;/a&gt; )&lt;br /&gt;&lt;br /&gt;Expect totally on fire short haired Ruth 🔥&lt;/p&gt;&amp;mdash; Ruth John (@Rumyra) &lt;a href="https://twitter.com/Rumyra/status/864100996422696960"&gt;May 15, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+
+&lt;p&gt;Anyway, thanks very much for everyone's concern and questions. I thought it probably deserved a little more explanation.&lt;/p&gt;
+
+&lt;p&gt;I set my hair on fire, well I say &lt;em&gt;I&lt;/em&gt; it was completely by accident and totally random.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;I had just met up with Harry for a natter and a couple of drinks. We found a lovely bar to sit down in, ordered a couple of glasses of local viennese wine and with that Harry takes one look at me, eyes widening with what I can only describe as fear and the unfortunate words 'Ruth, I think your hair is on fire'.&lt;/p&gt;
+
+&lt;p&gt;Behind my seat was a little ledge, with a little row of candles. I hadn't thought anything of it and pulled my hair up into a pony tail. But by doing so had completely endangered myself. Sure enough my hair was in fact on fire.&lt;/p&gt;
+
+&lt;p&gt;Without even thinking, well ok I was thinking, I was thinking I needed to snuff the flames out, with my hand, which I infact did. But by doing so a big chunk of hair came with it, as did a ton of ash which fell all over the table.&lt;/p&gt;
+
+&lt;p&gt;Poor Harry. There I was still not quite sure what had happened, and here he was, with what I can only describe as a desecrated hair mess on the table.&lt;/p&gt;
+
+&lt;p&gt;Still, I wasn't injured, the flames were out and like he re-assured me throughout my paranoid mumblings through the night, 'you can't even tell'. I am 100% sure he was ready to pour a glass of water over me like a true hero!&lt;/p&gt;
+
+&lt;p&gt;Anyway, all is well that ends well and I visited my babe of a hairdresser yesterday. By the time I'd explained the events of the evening she had rightfully sorted out the escapade. And really I think I quite like the new hair length ☺️&lt;/p&gt;
+
+&lt;figure class="media-feature"&gt;
+  &lt;img src="media/hair.jpg" /&gt;
+  &lt;figcaption&gt;Before and after photos of the hair fiasco&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</content>
+  </entry>
   <entry>
     <title>Codevember Review</title>
     <link rel="alternate" href="http://rumyrashead.com/codevember-review.html"/>
@@ -315,63 +354,6 @@ function drawCircles() {
 &lt;p&gt;However I think we should probably move into a better, more performant way of creating and manipulating DOM els for audio vis, don't you?&lt;/p&gt;
 
 &lt;p data-height="300" data-theme-id="1345" data-slug-hash="BQprdW" data-default-tab="html,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #10" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/BQprdW/"&gt;Codevember AudioVis #10&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title>Codevember Number Eight</title>
-    <link rel="alternate" href="http://rumyrashead.com/codevember-number-eight.html"/>
-    <id>http://rumyrashead.com/codevember-number-eight.html</id>
-    <published>2016-11-10T00:00:00+00:00</published>
-    <updated>2016-11-11T23:57:44+00:00</updated>
-    <author>
-      <name>Ruth John - @rumyra</name>
-    </author>
-    <content type="html">&lt;h3 id="part-two-random-cool-new-features"&gt;Part Two: Random Cool New Features&lt;/h3&gt;
-
-&lt;p&gt;So this next section I did ponder for a while. I could take you straight on to a much better way of creating visuals within the DOM, but before I do that I want to introduce some new features we have in simple CSS that can really help our visuals later down the track. Our inspiration for this set is a little tumblr called &lt;a href="http://intothecontinuum.tumblr.com/"&gt;Archery: Into the Continuum&lt;/a&gt;. Here I want to take inspiration from some of these random gifs, not exactly replicate them.&lt;/p&gt;
-
-&lt;p&gt;So first up, this gif:&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src="http://67.media.tumblr.com/e829a18961367c45baf1c2dcbcea47a0/tumblr_mr6p8hVjSQ1qfjvexo2_r1_500.gif" /&gt;
-&lt;/figure&gt;
-
-&lt;h3 id="custom-properties"&gt;Custom Properties&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Or&lt;/em&gt; JavaScript all up in your CSS&lt;/p&gt;
-
-&lt;p&gt;And the much talked about CSS Custom properties. ✨💥💜 We can really use these to our advantage when doing audio vis work as we can reference them directly in our JavaScript and basically update our CSS in realtime.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;Custom properties are declared at the start of your CSS with a &lt;code&gt;:root&lt;/code&gt; block and can be references throughout your CSS, much like (but not entirely) pre-processor variables. So instead of declaring properties that make sense as far as styling goes, I’m going to be changing them within my JavaScript, so it makes sense to name them something a little more explicit.&lt;/p&gt;
-
-&lt;p&gt;For this we’ll create a &lt;code&gt;—level&lt;/code&gt; property, and just grab one of the items of the &lt;code&gt;frequencyData&lt;/code&gt; array and pipe it in. This is where the magic happens:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class="language-css"&gt;:root {
-  --level: 1;
-}&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class="language-javascript"&gt;document.documentElement.style.setProperty('--level', frequencyData[10]/255);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This —level property will now update &lt;em&gt;*within our  css*&lt;/em&gt;. Oh. My. Gawd. I know right… 😱&lt;/p&gt;
-
-&lt;p&gt;Magic!&lt;/p&gt;
-
-&lt;p&gt;So if we use it on the opacity for instance:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class="language-css"&gt;i {
-  opacity: var(--level);
-}&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Boom! Opacity of &lt;code&gt;i&lt;/code&gt; updated! In real time, in our CSS.&lt;/p&gt;
-
-&lt;p&gt;I know - all the wows!&lt;/p&gt;
-
-&lt;p data-height="300" data-theme-id="1345" data-slug-hash="yVeoJo" data-default-tab="html,result" data-user="Rumyra" data-embed-version="2" data-pen-title="yVeoJo" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/yVeoJo/"&gt;yVeoJo&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
 
 </content>
