@@ -27,7 +27,7 @@
   <script src="/assets/javascripts/all.js" type="text/javascript"></script>
 </head>
 
-  <body class="category category_codevember"><div>
+  <body class="category category_css"><div>
 
     <header role="main">
       
@@ -92,82 +92,53 @@
   </article>
   <article class="post-summary craft-code">
     <header>
-      <a href="blog/2017-01-25-codevember-review.html"><h2>Codevember Review</h2></a>
-      <time datetime="2017-01-25">January 25, 2017</time>
+      <a href="blog/2016-10-20-a-little-thing-about-blends.html"><h2>A Little Thing About Blends</h2></a>
+      <time datetime="2016-10-20">October 20, 2016</time>
     </header>
     <div class="post-content">
-      <p><em>I wrote this back in December, then hopped in a campervan and trvelled round Australia and barely opened my laptop. It's probably still worth releasing tho</em> 👉</p>
+      <p>I learnt a little thing whilst playing around with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode">CSS blend modes</a> this morning which I thought I should share.</p>
 
-<p>Firstly let's go over the last few - here's the inspiration:</p>
+<p>I was just making a little visual:</p>
 
-<h3 id="concentric-circles">Concentric Circles</h3>
-
-<figure>
-  <img src="media/superConcen.jpg" />
-  <figcaption>Concentric Circles</figcaption>
+<figure class="media-feature">
+  <img src="/media/visualPlain.jpg">
+  <figcaption>Visual without blend modes</figcaption>
 </figure>
 
-<p>
+<p>And I thought, wouldn't it be lovely to have some CSS blend modes...</p>
     </div>
-    <a href="/codevember-review.html" class="link-fullart icon-after i-forward">Full Article</a>
+    <a href="/a-little-thing-about-blends.html" class="link-fullart icon-after i-forward">Full Article</a>
   </article>
   <article class="post-summary craft-code">
     <header>
-      <a href="blog/2016-11-22-codevember-number-fifteen.html"><h2>Codevember Number Fifteen</h2></a>
-      <time datetime="2016-11-22">November 22, 2016</time>
+      <a href="blog/2014-10-10-Animation-code-snippet.html"><h2>Animation code snippet</h2></a>
+      <time datetime="2014-10-10">October 10, 2014</time>
     </header>
     <div class="post-content">
-      <h3 id="super-sun">Super Sun</h3>
+      <p>Because I keep referring back to it:</p>
 
-<p>Today's inspiration is:</p>
+<pre>&lt;code class=“language-css”&gt;
+@include simple-vendor-prefix(animation,
+    animation-name(name [default:none])
+    animation-duration(Xs | Xms [default:0s])
+    animation-timing-function(ease | ease-in | ease-out | ease-in-out | linear | cubic-bezier(x1,y1,x2,y2) | step-start | step-end | steps(X start|end) [default:ease])
+    animation-delay(Xs | Xms [default:0s])
+    animation-iteration-count(X | infinite [default:1])
+    animation-direction(normal | reverse | alternate | alternate-reverse [default:normal])
+    animation-fill-mode(none | forwards | backwards | both [default:none])
+    animation-play-state(running | paused [default:running])
+    )
+&lt;/code&gt;</pre>
 
-<figure>
-  <img src="media/superSun.jpg">
-  <figcaption>The Super Sun</figcaption>
-</figure>
+<p>This is the <a href="http://sass-lang.com/" rel="external">Sass</a> I use for declaring CSS animations. It's a good list of all the parameters you can get for the CSS <code>animation</code> property, with their parameter format and default value.</p>
 
-<p>Today's is a little bit trickier as we have to create arc elements drawn in a circle that increase their outer arc with our data. But otherwise the code goes much the same as the previous days...</p>
+<p>
     </div>
-    <a href="/codevember-number-fifteen.html" class="link-fullart icon-after i-forward">Full Article</a>
+    <a href="/Animation-code-snippet.html" class="link-fullart icon-after i-forward">Full Article</a>
   </article>
 
 
 <ul class="list-posts">
-   <li class="craft-code">
-<a href="blog/2016-11-20-codevember-number-eleventwelve.html">      <h2>Codevember Number Eleven And Twelve</h2>
-      <time datetime="2016-11-20">November 20, 2016</time>
-      <span class="link-fullart icon-after i-forward">Full Article</span>
-</a>   </li>
-   <li class="craft-code">
-<a href="blog/2016-11-19-codevember-number-nineten.html">      <h2>Codevember Number Nine And Ten</h2>
-      <time datetime="2016-11-19">November 19, 2016</time>
-      <span class="link-fullart icon-after i-forward">Full Article</span>
-</a>   </li>
-   <li class="craft-code">
-<a href="blog/2016-11-10-codevember-number-eight.html">      <h2>Codevember Number Eight</h2>
-      <time datetime="2016-11-10">November 10, 2016</time>
-      <span class="link-fullart icon-after i-forward">Full Article</span>
-</a>   </li>
-   <li class="craft-code">
-<a href="blog/2016-11-06-codevember-number-five.html">      <h2>Codevember Number Five</h2>
-      <time datetime="2016-11-06">November  6, 2016</time>
-      <span class="link-fullart icon-after i-forward">Full Article</span>
-</a>   </li>
-   <li class="craft-code">
-<a href="blog/2016-11-05-codevember-number-four.html">      <h2>Codevember Number Four</h2>
-      <time datetime="2016-11-05">November  5, 2016</time>
-      <span class="link-fullart icon-after i-forward">Full Article</span>
-</a>   </li>
-   <li class="craft-code">
-<a href="blog/2016-11-03-codevember-number-three.html">      <h2>Codevember Number Three</h2>
-      <time datetime="2016-11-03">November  3, 2016</time>
-      <span class="link-fullart icon-after i-forward">Full Article</span>
-</a>   </li>
-   <li class="craft-code">
-<a href="blog/2016-11-02-codevember-number-two.html">      <h2>Codevember Number Two</h2>
-      <time datetime="2016-11-02">November  2, 2016</time>
-      <span class="link-fullart icon-after i-forward">Full Article</span>
-</a>   </li>
 </ul>
 
     </section>

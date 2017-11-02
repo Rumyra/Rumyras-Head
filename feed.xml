@@ -5,16 +5,80 @@
   <id>http://rumyrashead.com/</id>
   <link href="http://rumyrashead.com/"/>
   <link href="http://rumyrashead.com/feed.xml" rel="self"/>
-  <updated>2017-05-17T01:00:00+01:00</updated>
+  <updated>2017-11-02T00:00:00+00:00</updated>
   <author>
     <name>Ruth John - @rumyra</name>
   </author>
+  <entry>
+    <title>Codevember Hash One</title>
+    <link rel="alternate" href="http://rumyrashead.com/codevember-hash-one.html"/>
+    <id>http://rumyrashead.com/codevember-hash-one.html</id>
+    <published>2017-11-02T00:00:00+00:00</published>
+    <updated>2017-11-02T23:28:13+00:00</updated>
+    <author>
+      <name>Ruth John - @rumyra</name>
+    </author>
+    <content type="html">&lt;h3 id="codevember-2017"&gt;Codevember 2017&lt;/h3&gt;
+
+&lt;p&gt;Wow I almost wrote 2018 then! It's here CODEVEMBER!! ALL THE EMOJIS&lt;/p&gt;
+
+&lt;p&gt;tl:dr;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It's Codevember&lt;/li&gt;
+  &lt;li&gt;Gonna do some CSS Grid&lt;/li&gt;
+  &lt;li&gt;Probably not every day&lt;/li&gt;
+  &lt;li&gt;Got a book for inspiration&lt;/li&gt;
+  &lt;li&gt;Will write notes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I haven't written much this year, it's been pretty busy… I think I'll make it more of a focus next year, there's so much I want to learn and then hopefully write about. This year has very much been about sharing my thus far found knowledge. Which I will continue to do, but there's so many things which have taken a back seat and I need to sit and learn.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Which is where this Codevember comes in. I need to get more practise with grid layout. I'll be teaching it in January to my bootcamp students as I'm revising my part of the course and I really want to stretch myself with it. Get it into muscle memory, and hopefully do a bit more flexbox as well. I've done a fair bit now, but I still feel like there's a lot of trial and error with both when I use them. I'm not use to this, other methods just fall off the finger tips. It'd be great to learn these inside out too.&lt;/p&gt;
+
+&lt;p&gt;I know already I can't do every day this month. I'm on a project as I write this and have 3 conferences lined up… Also I really want to buy a Nintendo Switch.&lt;/p&gt;
+
+&lt;p&gt;Don't worry, I &lt;em&gt;have&lt;/em&gt; done some more visuals this year I want to share, so expect some of them mixed in too :D&lt;/p&gt;
+
+&lt;h2 id="hash-1"&gt;Hash 1&lt;/h2&gt;
+
+&lt;p&gt;INSPIRATION Y'ALL :D You know how much I luv inspiration. Check out this book&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src="media/cssGridBook.jpg" /&gt;
+  &lt;figcaption&gt;Make and Break the Grid&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I totally borrowed this from a work place years and years ago, then I forgot and then I left the job (:embarrassed_face:) but we had a googles today and you can get it for £16, so if anyone is missing it and needs reimbursing hit me up (soz).&lt;/p&gt;
+
+&lt;p&gt;I mean the title says it all really. It's got loads and loads of layouts based on different grids all the way through it. See those sticky tabs? I went through it last night and highlighted what I thought to be easy -&amp;gt; harder layouts through the use of colour. We'll see how I get on.&lt;/p&gt;
+
+&lt;h3 id="the-exercise-here-is-not-to-copy-them-directly"&gt;The exercise here is not to copy them directly…&lt;/h3&gt;
+
+&lt;p&gt;I have complete artist control, they are &lt;em&gt;inpiration&lt;/em&gt;. What I want is to practise using CSS Grid, if there's part of a layout I want to change to practise something I will most likely do this.&lt;/p&gt;
+
+&lt;p&gt;So to start simple here's the first day.&lt;/p&gt;
+
+&lt;p data-height="300" data-theme-id="1345" data-slug-hash="Vrerme" data-default-tab="html,result" data-user="Rumyra" data-embed-version="2" data-pen-title="CSS Grid #1 : Codevember '17" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/Vrerme/"&gt;CSS Grid #1 : Codevember '17&lt;/a&gt; by Rumyra (&lt;a href="https://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="https://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;Inspired by this lovely image:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src="media/cssGrid1.jpg" /&gt;
+  &lt;figcaption&gt;Simple Image Grid&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</content>
+  </entry>
   <entry>
     <title>How To Be On Fire</title>
     <link rel="alternate" href="http://rumyrashead.com/how-to-be-on-fire.html"/>
     <id>http://rumyrashead.com/how-to-be-on-fire.html</id>
     <published>2017-05-17T01:00:00+01:00</published>
-    <updated>2017-05-17T23:36:45+01:00</updated>
+    <updated>2017-11-02T23:28:13+00:00</updated>
     <author>
       <name>Ruth John - @rumyra</name>
     </author>
@@ -53,7 +117,7 @@
     <link rel="alternate" href="http://rumyrashead.com/codevember-review.html"/>
     <id>http://rumyrashead.com/codevember-review.html</id>
     <published>2017-01-25T00:00:00+00:00</published>
-    <updated>2017-01-25T20:01:47+00:00</updated>
+    <updated>2017-11-02T23:28:13+00:00</updated>
     <author>
       <name>Ruth John - @rumyra</name>
     </author>
@@ -159,7 +223,7 @@
     <link rel="alternate" href="http://rumyrashead.com/codevember-number-fifteen.html"/>
     <id>http://rumyrashead.com/codevember-number-fifteen.html</id>
     <published>2016-11-22T00:00:00+00:00</published>
-    <updated>2016-11-22T15:57:33+00:00</updated>
+    <updated>2017-11-02T23:28:13+00:00</updated>
     <author>
       <name>Ruth John - @rumyra</name>
     </author>
@@ -186,7 +250,7 @@
     <link rel="alternate" href="http://rumyrashead.com/codevember-number-thirfourteen.html"/>
     <id>http://rumyrashead.com/codevember-number-thirfourteen.html</id>
     <published>2016-11-21T00:00:00+00:00</published>
-    <updated>2016-11-21T22:02:43+00:00</updated>
+    <updated>2017-11-02T23:28:13+00:00</updated>
     <author>
       <name>Ruth John - @rumyra</name>
     </author>
@@ -286,7 +350,7 @@ function drawCircles() {
     <link rel="alternate" href="http://rumyrashead.com/codevember-number-eleventwelve.html"/>
     <id>http://rumyrashead.com/codevember-number-eleventwelve.html</id>
     <published>2016-11-20T00:00:00+00:00</published>
-    <updated>2016-11-20T22:33:04+00:00</updated>
+    <updated>2017-11-02T23:28:13+00:00</updated>
     <author>
       <name>Ruth John - @rumyra</name>
     </author>
@@ -300,60 +364,6 @@ function drawCircles() {
 &lt;p&gt;It's kinda there - it needs some tweaking depending on whether we have an animation or gif/video that's needing the effect. Something that take some params depending on whether we want it rotated or reflected would be the best final solution me thinks.&lt;/p&gt;
 
 &lt;p data-height="300" data-theme-id="1345" data-slug-hash="Ropbyv" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #12" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/Ropbyv/"&gt;Codevember AudioVis #12&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title>Codevember Number Nine And Ten</title>
-    <link rel="alternate" href="http://rumyrashead.com/codevember-number-nineten.html"/>
-    <id>http://rumyrashead.com/codevember-number-nineten.html</id>
-    <published>2016-11-19T00:00:00+00:00</published>
-    <updated>2016-11-19T18:46:06+00:00</updated>
-    <author>
-      <name>Ruth John - @rumyra</name>
-    </author>
-    <content type="html">&lt;p&gt;Phew, there was a break wasn't there! Apparently it's hard to keep up when you're on the road. So I thought there's probably only one thing to do and that's try and do &lt;em&gt;two&lt;/em&gt; codevembers for the next few days to make up for it.&lt;/p&gt;
-
-&lt;p&gt;Let's see how that goes 🤓&lt;/p&gt;
-
-&lt;h3 id="audiovis-9"&gt;AudioVis #9&lt;/h3&gt;
-
-&lt;p&gt;NB This one comes with a warning. The way I coded this is highly UNRECOMMENDED. Not only was it a total ball ache, it doesn’t perform well and there are work arounds. It took what felt like days and the result is not amazing. If you’re wondering, I would probably use canvas for an audio vis of this nature in future. Hashtag learning, amiright?&lt;/p&gt;
-
-&lt;p&gt;So today I’m going to expand a little on yesterday and take influence from &lt;a href="http://intothecontinuum.tumblr.com/post/119241330868/maihudson-mathematica-codesn-t-sinn3"&gt;this crazy gif&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;But in my version, I want a shape for each of the low frequencies, the mid frequencies and the high frequencies, that change depending on the level we get back from the analysis.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;I'm setting a load more custom properties than the previous &lt;a href="https://codepen.io/Rumyra/pen/yVeoJo"&gt;codevember&lt;/a&gt;, so I'm looping over them in the JS. Things I learnt include:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We actually don’t need to set those properties in the root block at the top of our CSS if we’re setting them within our JavaScript. They’re set there, so they get passed into the CSS regardless… nuice!&lt;/li&gt;
-  &lt;li&gt;Maths in CSS is hard, even with nice things like a &lt;code&gt;calc&lt;/code&gt; function and shiny extras preprocessors like Sass give us. JavaScript is much better as maths, so I found keeping number crunching there is a lot better. Just pass the value you want in the CSS into the custom property.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p data-height="300" data-theme-id="1345" data-slug-hash="NbdXaE" data-default-tab="html,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #9" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/NbdXaE/"&gt;Codevember AudioVis #9&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
-
-&lt;p&gt;This one was a great learning experience and great experiment, even if the final result wasn't ideally what I was after at the start. I would keep using custom properties to do things like filter effects and glitch's for final VJing rather than modifying multiple DOM elements with them in the future.&lt;/p&gt;
-
-&lt;h3 id="audiovis-10-blend-modes-"&gt;AudioVis #10: Blend Modes 😎&lt;/h3&gt;
-
-&lt;p&gt;Inspiration:&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src="http://66.media.tumblr.com/cc6b92fc94e847f5358890da3ed2c5c5/tumblr_nobi29xtOO1sn5m9vo4_1280.gif" /&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I've actually written about using blend modes for &lt;a href="http://rumyrashead.com/a-little-thing-about-blends.html"&gt;this audio vis before&lt;/a&gt;. The make up of the visual itself isn't too different code wise to previous ones. I have some DOM elements, I am positioing them, I am animating them, the only extra feature I am encorporating is blend modes on the elements to see what effect that has.&lt;/p&gt;
-
-&lt;p&gt;It looks super nice, but with all the DOM elements I have with this one performance isn't so great. I can up it by making sure I add the &lt;code&gt;will-change&lt;/code&gt; property in the CSS to any elements that have any other properties that are to change.&lt;/p&gt;
-
-&lt;p&gt;However I think we should probably move into a better, more performant way of creating and manipulating DOM els for audio vis, don't you?&lt;/p&gt;
-
-&lt;p data-height="300" data-theme-id="1345" data-slug-hash="BQprdW" data-default-tab="html,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #10" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/BQprdW/"&gt;Codevember AudioVis #10&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
 
 </content>
