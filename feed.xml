@@ -5,10 +5,31 @@
   <id>http://rumyrashead.com/</id>
   <link href="http://rumyrashead.com/"/>
   <link href="http://rumyrashead.com/feed.xml" rel="self"/>
-  <updated>2017-11-02T00:00:00+00:00</updated>
+  <updated>2017-11-04T00:00:00+00:00</updated>
   <author>
     <name>Ruth John - @rumyra</name>
   </author>
+  <entry>
+    <title>Codevember Hash Two</title>
+    <link rel="alternate" href="http://rumyrashead.com/codevember-hash-two.html"/>
+    <id>http://rumyrashead.com/codevember-hash-two.html</id>
+    <published>2017-11-04T00:00:00+00:00</published>
+    <updated>2017-11-04T13:17:07+00:00</updated>
+    <author>
+      <name>Ruth John - @rumyra</name>
+    </author>
+    <content type="html">&lt;h3 id="codevember-hash-two"&gt;Codevember Hash Two&lt;/h3&gt;
+
+&lt;p&gt;It's &lt;strong&gt;Sapphire&lt;/strong&gt; subject today so here's a little audio vis instead of a grid practice, as it seemed to fit a little betterer.&lt;/p&gt;
+
+&lt;p data-height="300" data-theme-id="1345" data-slug-hash="XzdVKJ" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember Hash 2" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/XzdVKJ/"&gt;Codevember Hash 2&lt;/a&gt; by Rumyra (&lt;a href="https://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="https://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;The biggest change I've made to the audio-vis software I'm building (Vizra) is to move the visuals to a canvas element to help performance. Drawing (&amp;amp; re-drawing) a butt ton of SVGs wasn't working too well. So the audio vis you'll see this Codevember are all going to be on canvas - not too much change to the actual visuals from last year. But most of work this year has been around the nuts and bolts of the software rather than the vis themselves.&lt;/p&gt;
+
+&lt;p&gt;Weirdly I have run into &lt;em&gt;more&lt;/em&gt; performance problems recently, but that's a whole other blog post, in fact a whole series!&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Codevember Hash One</title>
     <link rel="alternate" href="http://rumyrashead.com/codevember-hash-one.html"/>
@@ -341,29 +362,6 @@ function drawCircles() {
 &lt;p&gt;The technique is much the same as the previous example, just this time we’re creating SVG &lt;code&gt;rect&lt;/code&gt; elements and doing some maths to position and colour them. The data is being used to adjust the brightness of the squares, although we could use it for anything. Another good example that would be good to live code at a gig.&lt;/p&gt;
 
 &lt;p data-height="300" data-theme-id="1345" data-slug-hash="mOWKdL" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="mOWKdL" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/mOWKdL/"&gt;mOWKdL&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title>Codevember Number Eleven And Twelve</title>
-    <link rel="alternate" href="http://rumyrashead.com/codevember-number-eleventwelve.html"/>
-    <id>http://rumyrashead.com/codevember-number-eleventwelve.html</id>
-    <published>2016-11-20T00:00:00+00:00</published>
-    <updated>2017-11-02T23:28:13+00:00</updated>
-    <author>
-      <name>Ruth John - @rumyra</name>
-    </author>
-    <content type="html">&lt;p&gt;This is an experiement in symmetry. An effect that would be great in the final audio vis software.&lt;/p&gt;
-
-&lt;p data-height="300" data-theme-id="1345" data-slug-hash="bBqbBX" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #11" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/bBqbBX/"&gt;Codevember AudioVis #11&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
-
-&lt;p&gt;The original idea is a function that would take whatever was in the DOM and reflect and repeat it around so it would automatically make it look awesome.&lt;/p&gt;
-
-&lt;p&gt;It's kinda there - it needs some tweaking depending on whether we have an animation or gif/video that's needing the effect. Something that take some params depending on whether we want it rotated or reflected would be the best final solution me thinks.&lt;/p&gt;
-
-&lt;p data-height="300" data-theme-id="1345" data-slug-hash="Ropbyv" data-default-tab="js,result" data-user="Rumyra" data-embed-version="2" data-pen-title="Codevember AudioVis #12" class="codepen"&gt;See the Pen &lt;a href="https://codepen.io/Rumyra/pen/Ropbyv/"&gt;Codevember AudioVis #12&lt;/a&gt; by Rumyra (&lt;a href="http://codepen.io/Rumyra"&gt;@Rumyra&lt;/a&gt;) on &lt;a href="http://codepen.io"&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async="" src="https://production-assets.codepen.io/assets/embed/ei.js"&gt;&lt;/script&gt;
 
 </content>
