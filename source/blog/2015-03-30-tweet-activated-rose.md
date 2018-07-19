@@ -37,13 +37,13 @@ READMORE
 
 <pre class="language-ruby"><code>require 'tweetstream'
 require 'serialport'
- 
+
 input=ARGV.shift || "#bordeaux,#strasbourg"
 #params for serial port
 port_str = "/dev/tty.usbmodem1411"  #may be different for you
- 
+
 sp = SerialPort.new(port_str, 9600, 8, 1, SerialPort::NONE)
- 
+
 TweetStream.configure do |config|
   config.consumer_key       = 'CONSUMERKEYHERE'
   config.consumer_secret    = 'CONSUMERSECRETHERE'
@@ -51,9 +51,9 @@ TweetStream.configure do |config|
   config.oauth_token_secret = 'OAUTHSECRETHERE'
   config.auth_method        = :oauth
 end
- 
+
 @client=TweetStream::Client.new;
- 
+
 total=0
 last=Time.now
 words=input.split(',')
@@ -94,7 +94,7 @@ end
 
 <pre class="language-c"><code>int ledPin=13;    // select the input pin for the potentiometer
 int nbLed=1;
- 
+
 void setup() {
   // Open serial communications and wait for port to open:
   Serial.begin(9600);
@@ -102,17 +102,17 @@ void setup() {
     ; // wait for serial port to connect. Needed for Leonardo only
   }
   for(int i=0;i&lt;nbLed;i++){
-   pinMode(ledPin-i, OUTPUT); 
+   pinMode(ledPin-i, OUTPUT);
   }
 }
- 
+
 // Utility function to get a value from a string at a given pos
 String getValue(String data, char separator, int index)
 {
   int found = 0;
   int strIndex[] = {0, -1};
   int maxIndex = data.length()-1;
- 
+
   for(int i=0; i&lt;=maxIndex && found&lt;=index; i++){
     if(data.charAt(i)==separator || i==maxIndex){
 found++;
@@ -130,14 +130,14 @@ void loop() {
     for(int i=0;i&lt;nbLed;i++){
       // look for the next valid integer in the incoming serial stream:
       if(!getValue(str,' ',i+1).equals("0")){
-digitalWrite(ledPin-i, HIGH);  
+digitalWrite(ledPin-i, HIGH);
       }
     }
   }
-  delay(100);  
+  delay(100);
   for(int i=0;i&lt;nbLed;i++){
-    digitalWrite(ledPin-i, LOW); 
-  } 
+    digitalWrite(ledPin-i, LOW);
+  }
 }</code></pre>
 
 <h3>Hooking it all up</h3>
